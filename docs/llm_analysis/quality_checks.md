@@ -1,93 +1,84 @@
-# Comprobaciones de calidad
+# Comprobaciones de calidad de los snapshots
 
-## Fuentes
+Todas las cifras proceden de recorridos completos de julio de 2025 y enero de
+2026.
 
-- `@upstream/caj_esp_072025/`
-- `@upstream/caj_esp_012026/`
-- `@upstream/cod_provincia.csv`
-- `@upstream/cod_mun.csv`
+## Estructura y claves
 
-## Integridad estructural
+| Fichero | Anchura incorrecta | Campos `N` inválidos | Claves duplicadas |
+| --- | ---: | ---: | ---: |
+| `VIAS` | 0 | 0 | 0 |
+| `PSEU` | 0 | 0 | 0 |
+| `TRAM` | 0 | 0 | 0 |
+| `UP` | 0 | 0 | 0 |
+| `SECC` | 0 | 0 | 0 |
+
+Todas las fechas `FVAR` son válidas y coinciden con la fecha de referencia del
+snapshot. Todas las líneas terminan en `CRLF`.
+
+## Integridad referencial
 
 En ambos snapshots:
 
-- Todas las filas tienen la anchura esperada.
-- No se han observado claves duplicadas.
-- No se han observado referencias a provincias o municipios fuera de catálogo.
+- cero referencias territoriales fuera de `cod_provincia.csv` o `cod_mun.csv`;
+- cero referencias de `TRAM` a una `UP` inexistente;
+- cero referencias de `TRAM` a `SECC`, `VIAS` o `PSEU` inexistentes, ignorando
+  `00000` donde significa “no aplica”;
+- cero padres ausentes en la jerarquía `UP`;
+- cero diferencias entre los nombres denormalizados de `TRAM` y sus filas de
+  origen.
 
-Resumen:
+Esto permite normalizar `TRAM` sin perder nombres y reconstruirlos mediante joins.
 
-| Fichero | Jul 2025 | Ene 2026 | Duplicadas | Referencias rotas |
-| --- | ---: | ---: | ---: | ---: |
-| `VIAS` | 903738 | 906194 | 0 | 0 |
-| `PSEU` | 97899 | 101390 | 0 | 0 |
-| `TRAM` | 1519034 | 1527547 | 0 | 0 |
-| `UP` | 154056 | 154143 | 0 | 0 |
-| `SECC` | 36626 | 36670 | 0 | 0 |
+## Tramos y portales
 
-## Integridad cruzada
+En enero de 2026:
 
-En ambos snapshots, `TRAM` referencia correctamente:
+| `TINUM` | Significado | Filas |
+| --- | --- | ---: |
+| `0` | Sin numeración | 102.830 |
+| `1` | Impar | 724.923 |
+| `2` | Par | 699.794 |
 
-- `VIAS`
-- `PSEU`
-- `SECC`
+No se observaron:
 
-Resultado observado:
+- `EIN > ESN`;
+- extremos pares en tramos impares;
+- extremos impares en tramos pares;
+- códigos postales vacíos o `00000`;
+- `CUN=0000000` en `TRAM`.
 
-- Referencias rotas a `VIAS`: 0
-- Referencias rotas a `PSEU`: 0
-- Referencias rotas a `SECC`: 0
+Todos los tramos sin numeración usan exactamente `0000S-0000S`. El campo `MANZ`
+está vacío en 100 % de las filas y `LSECC` también. `SUBSC` usa blanco o
+`01`-`06`.
 
-## Distribuciones útiles para negocio
+## Municipio y código postal
 
-### Relación municipio <-> código postal
+La relación es muchos-a-muchos:
 
-Snapshot enero 2026:
+- 2.080 de 8.132 municipios tienen más de un código postal.
+- 1.963 de 10.795 códigos postales aparecen en más de un municipio.
+- Madrid tiene 58 códigos; Murcia, 54; Barcelona, 42.
+- `09640` y `42180` aparecen cada uno en 10 municipios.
 
-- Municipios con más de un código postal: 2080 de 8132
-- Códigos postales asociados a más de un municipio: 1963 de 10795
+No modelar `postal_code` como atributo único de municipio.
 
-Ejemplos:
+## Cambios entre snapshots
 
-- `Madrid`: 58 códigos postales
-- `Murcia`: 54
-- `Barcelona`: 42
-- `09640`: compartido por 10 municipios
-- `42180`: compartido por 10 municipios
-
-### Tipo de numeración en `TRAM`
-
-Snapshot enero 2026:
-
-- `1` (impar): 724923
-- `2` (par): 699794
-- `0` (sin numeración): 102830
-
-Esto es útil para construir validación de portales y rangos numéricos.
-
-## Evolución entre snapshots
-
-Comparando julio de 2025 contra enero de 2026:
-
-| Fichero | Altas de clave | Bajas de clave | Cambios con misma clave |
+| Fichero | Altas de clave | Bajas de clave | Misma clave con contenido distinto |
 | --- | ---: | ---: | ---: |
-| `VIAS` | 5030 | 2574 | 16380 |
-| `PSEU` | 3580 | 89 | 106 |
+| `VIAS` | 5.030 | 2.574 | 16.380 |
+| `PSEU` | 3.580 | 89 | 106 |
 | `UP` | 102 | 15 | 85 |
 | `SECC` | 52 | 8 | 0 |
-| `TRAM` | 39911 | 31398 | 0 |
+| `TRAM` | 39.911 | 31.398 | 0 |
 
-Lectura rápida:
+En `TRAM`, la clave natural incluye todo el bloque anterior, incluido el intervalo;
+por ello un cambio territorial o de rango se expresa como baja y alta, no como
+“misma clave modificada”.
 
-- `VIAS` cambia bastante más por renombrados y ajustes que `PSEU` o `UP`.
-- `TRAM` es la tabla más volátil, como cabría esperar al mezclar sección, unidad poblacional, vía, código postal y tramos numéricos.
+## Veredicto
 
-## Conclusión de calidad
-
-Para uso batch y para construcción de datasets derivados, la calidad observada es buena.
-
-Para uso incremental, conviene tratar por separado:
-
-- El snapshot completo, que sí parece muy confiable
-- El fichero de variaciones, que necesita validación adicional antes de usarlo como fuente de sincronización exacta
+Los snapshots tienen buena integridad estructural y relacional para cargas batch.
+Este veredicto no se extiende al bundle de variaciones, cuyas anomalías se
+documentan por separado.

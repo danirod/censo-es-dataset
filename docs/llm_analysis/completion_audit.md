@@ -1,91 +1,59 @@
 # Auditoría de cierre
 
-## Objetivo auditado
+## Objetivo
 
-> Analyze the INE callejero datasets and related upstream files to assess data quality, document the file formats sparsely under `docs/llm_analysis`, and verify key assumptions needed to build clean validation datasets and services from them.
+Mejorar la documentación de `docs/llm_analysis` mediante contraste completo con
+los snapshots, los ficheros de variaciones, los CSV, el XLSX y los PDF, manteniendo
+varios documentos breves y útiles para humanos y modelos de razonamiento inferior.
 
-## Requisitos derivados
+El cierre exige dos auditorías consecutivas que no encuentren mejoras pendientes.
 
-### 1. Analizar los datasets principales y ficheros upstream relacionados
+## Requisitos y evidencia
 
-Evidencia actual:
+| Requisito | Evidencia |
+| --- | --- |
+| Analizar toda la documentación previa | Inventario y lectura de todos los Markdown; índice final en `overview.md`. |
+| Contrastar los dos snapshots completos | 2.711.353 y 2.725.944 filas recorridas, respectivamente, con anchuras, tipos, claves, dominios y relaciones comprobados. |
+| Contrastar el bundle completo | 54.654 filas recorridas; layouts, operaciones, duplicados, payloads y replay analizados. |
+| Contrastar XLSX y PDF | Cinco hojas del Excel extraídas; ambos PDF leídos y sus tablas críticas renderizadas visualmente. |
+| Contrastar CSV auxiliares | Encodings, esquemas, cardinalidades, integridad y calidad de `TiposVia.csv` comprobados. |
+| Aclarar formato y semántica | Diccionarios separados para `VIAS/PSEU`, `TRAM`, `UP/SECC` y variaciones. |
+| Facilitar uso humano y por LLM | Modelo conceptual, guía de lectura, reglas de validación y modelo relacional explícitos. |
+| Mantener archivos cortos | Ningún documento funcional supera 130 líneas; cada uno tiene una responsabilidad. |
+| Distinguir certeza | `sources_and_scope.md` fija prioridad y separa dato oficial, observación e inferencia. |
 
-- Snapshots principales analizados en [snapshot_formats.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/snapshot_formats.md) y [quality_checks.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/quality_checks.md)
-- Ficheros de variaciones analizados en [variation_files.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/variation_files.md)
-- CSV auxiliares analizados en [reference_catalogs.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/reference_catalogs.md)
+## Correcciones materiales realizadas
 
-Veredicto:
+- `FVAR` de snapshot documentado como fecha de referencia común.
+- `CUN` explicado como `CCSSDNN`, con método ABC y `NN=99` para diseminado.
+- `0000S-0000S` y los calificadores de portal explicados sin simplificaciones
+  incorrectas.
+- Discrepancias de `SECC`, vector de errores, `POS` y ceros/blancos explicitadas.
+- Nombres denormalizados de `TRAM` verificados contra sus tablas de origen.
+- `TiposVia.csv` reclasificado como relación de sinonimia imperfecta.
+- `NSEC` descartado como clave u orden total.
+- Duplicados exactos y modificaciones sin cambio de `TRAM` cuantificados.
+- Replay de variaciones reproducido y sus conflictos cuantificados.
+- Recomendaciones de SQLite corregidas para códigos, claves vacías y FKs.
 
-- Cubierto
+## Historial de iteraciones
 
-### 2. Determinar si los ficheros del callejero son de calidad aceptable
+### Iteración de mejora
 
-Evidencia actual:
+La primera revisión encontró documentación duplicada, un cierre obsoleto, ausencia
+de layouts de variaciones y varios dominios o caveats no documentados. Se
+reorganizó y amplió el conjunto; por tanto, esta iteración no cuenta como auditoría
+sin cambios.
 
-- Anchuras fijas correctas en todos los ficheros principales
-- Sin claves duplicadas observadas
-- Sin referencias rotas a provincia/municipio
-- Sin referencias rotas de `TRAM` hacia `VIAS`, `PSEU` y `SECC`
-- Invariantes de numeración y código postal contrastados en [quality_checks.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/quality_checks.md) y [validator_assumptions.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/validator_assumptions.md)
+### Auditorías finales
 
-Veredicto:
+La primera tentativa encontró finales de fichero no canónicos mediante
+`git diff --check`; se corrigieron y se reinició el contador.
 
-- Cubierto, con caveat explícito sobre el bundle de variaciones
+1. **Primera pasada limpia:** fuentes, cifras, layouts, enlaces, tablas, longitudes
+   y `git diff --check` revalidados sin mejoras pendientes.
+2. **Segunda pasada limpia:** revisión adversarial desde `overview.md`, cobertura de
+   preguntas de parseo/semántica/joins/SQLite/validación/replay, búsqueda de
+   contradicciones y comprobación final del diff; ninguna mejora pendiente.
 
-### 3. Documentar de forma clara el formato de fichero
-
-Evidencia actual:
-
-- Layouts y anchuras de `VIAS`, `PSEU`, `TRAM`, `UP` y `SECC` documentados en [snapshot_formats.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/snapshot_formats.md)
-- Layouts del bundle de variaciones documentados en [variation_files.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/variation_files.md)
-
-Veredicto:
-
-- Cubierto
-
-### 4. Verificar tesis útiles para futuros datasets, librerías y servicios de validación
-
-Evidencia actual:
-
-- Relación M..N municipio <-> código postal verificada en [quality_checks.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/quality_checks.md)
-- Catálogo canónico de municipios y jerarquía de `UP` verificados en [validator_assumptions.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/validator_assumptions.md)
-- Tramos rurales/diseminados sin vía formal perfilados en [validator_assumptions.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/validator_assumptions.md)
-- Cobertura de `TiposVia.csv` y semántica de `NVIAC` verificadas en [validator_assumptions.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/validator_assumptions.md)
-
-Veredicto:
-
-- Cubierto
-
-### 5. Mantener la documentación sparse en varios markdowns cortos
-
-Evidencia actual:
-
-- La documentación final está repartida en:
-  - [overview.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/overview.md)
-  - [snapshot_formats.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/snapshot_formats.md)
-  - [quality_checks.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/quality_checks.md)
-  - [validator_assumptions.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/validator_assumptions.md)
-  - [variation_files.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/variation_files.md)
-  - [reference_catalogs.md](/Users/danirod/code/censo-es-dataset/docs/llm_analysis/reference_catalogs.md)
-
-Veredicto:
-
-- Cubierto
-
-## Riesgos y límites que siguen siendo ciertos
-
-- El bundle `Var_Callejero_0725_0126` no está probado como diff exhaustivo del snapshot.
-- La semántica exacta de algunas operaciones de variación puede requerir reglas adicionales si se quiere construir sincronización incremental exacta.
-
-Estos límites están documentados y no invalidan la conclusión principal sobre la calidad de los snapshots completos.
-
-## Conclusión
-
-Con la evidencia actual, el objetivo original queda sustancialmente cubierto:
-
-- calidad del snapshot evaluada
-- formatos documentados
-- supuestos clave para validadores y datasets derivados verificados
-- caveats relevantes explicitados
-
-No quedan huecos materiales sin documentar para arrancar el diseño de datasets derivados y servicios de validación sobre snapshots completos.
+Se cumple el criterio de dos auditorías consecutivas sin cambios materiales.

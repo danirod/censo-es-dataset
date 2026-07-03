@@ -1,129 +1,61 @@
-# Formato observado de los snapshots principales
+# Formato físico de los snapshots
 
-Para saber qué significa cada sigla, qué tipo lógico tiene, qué valores especiales
-admite y cómo se codifica `CUN`, véase el
-[diccionario de datos](./data_dictionary.md). Este documento se centra en la
-estructura física y en las observaciones generales.
+## Propiedades comunes
 
-## Fuentes
+| Propiedad | Valor observado |
+| --- | --- |
+| Codificación | `ISO-8859-1` |
+| Final de línea | `CRLF` |
+| Cabecera | Ninguna |
+| Separador | Ninguno; posiciones fijas |
+| Relleno alfanumérico | Espacios a la derecha |
+| Registros de longitud incorrecta | 0 en ambos snapshots |
 
-- Diseño base: `@upstream/dis_registro.pdf`
-- Diseño ampliado: `@upstream/Dis_nuevo.xlsx`
-- Validación empírica: `@upstream/caj_esp_072025/` y `@upstream/caj_esp_012026/`
+No abrir estos ficheros como UTF-8. Al leer en modo texto, el terminador no forma
+parte de la anchura indicada.
 
-## Rasgos comunes
+## Ficheros
 
-- Codificación observada: `ISO-8859-1`
-- Final de línea observado: `CRLF`
-- Relleno: espacios a la derecha en campos alfanuméricos
-- Todos los ficheros observados son de anchura fija exacta
+| Fichero | Anchura | Filas julio 2025 | Filas enero 2026 | Diccionario |
+| --- | ---: | ---: | ---: | --- |
+| `VIAS` | 132 | 903.738 | 906.194 | [Vías y pseudovías](./fields_vias_pseu.md) |
+| `PSEU` | 127 | 97.899 | 101.390 | [Vías y pseudovías](./fields_vias_pseu.md) |
+| `TRAM` | 273 | 1.519.034 | 1.527.547 | [Tramos](./fields_tram.md) |
+| `UP` | 604 | 154.056 | 154.143 | [Unidades y secciones](./fields_up_secc.md) |
+| `SECC` | 11 | 36.626 | 36.670 | [Unidades y secciones](./fields_up_secc.md) |
 
-## Anchuras
+## Cómo cortar campos
 
-| Fichero | Anchura observada |
-| --- | ---: |
-| `VIAS` | 132 |
-| `PSEU` | 127 |
-| `TRAM` | 273 |
-| `UP` | 604 |
-| `SECC` | 11 |
+Las posiciones de la documentación son inclusivas y empiezan en 1. En lenguajes
+con slices de inicio inclusivo y fin exclusivo:
 
-## `VIAS`
+```text
+posición INE 1-2  -> slice [0:2]
+posición INE 6-10 -> slice [5:10]
+```
 
-Campos según `Dis_nuevo.xlsx`:
+Primero se elimina sólo `\r\n`; después se comprueba la longitud y por último se
+extraen campos. Aplicar `strip()` a toda la línea destruiría los espacios del
+último campo y ocultaría registros truncados.
 
-| Campo | Longitud | Posiciones |
-| --- | ---: | --- |
-| `CPRO` | 2 | 1-2 |
-| `CMUN` | 3 | 3-5 |
-| `CVIA` | 5 | 6-10 |
-| `NVIAC` | 25 | 11-35 |
-| `TIPOINF` | 1 | 36 |
-| `CDEV` | 2 | 37-38 |
-| `FVAR` | 8 | 39-46 |
-| `CVAR` | 1 | 47 |
-| `CVIA` | 5 | 48-52 |
-| `TVIA` | 5 | 53-57 |
-| `NVIA` | 50 | 58-107 |
-| `NVIAC` | 25 | 108-132 |
+## Controles que debe hacer un parser
 
-Observación empírica:
+1. Rechazar o apartar líneas cuya anchura no sea la esperada.
+2. Validar que cada campo `N` contiene exactamente tantos dígitos como posiciones.
+3. Decodificar antes de recortar los campos `A`.
+4. Preservar los códigos como texto.
+5. Validar `FVAR` como `AAAAMMDD`.
+6. Conservar la línea y el número de línea para trazabilidad.
 
-- En snapshots, la mitad de identificación y la mitad "de variación" están duplicadas y contienen el mismo valor real.
-- `TIPOINF`, `CDEV` y `CVAR` van en blanco en todos los registros observados.
+En los dos snapshots analizados no hay infracciones de anchura ni campos `N` con
+espacios o caracteres no numéricos.
 
-## `PSEU`
+## Semántica de snapshot
 
-Campos según `Dis_nuevo.xlsx`:
+Todos los registros de una publicación comparten `FVAR`, que coincide con su fecha
+de referencia. `TIPOINF`, `CDEV` y `CVAR` están vacíos. Los bloques anterior y
+resultante coinciden exactamente: no deben interpretarse como dos versiones
+temporales dentro del snapshot.
 
-| Campo | Longitud | Posiciones |
-| --- | ---: | --- |
-| `CPRO` | 2 | 1-2 |
-| `CMUN` | 3 | 3-5 |
-| `CPSVIA` | 5 | 6-10 |
-| `NPSVIA` | 50 | 11-60 |
-| `TIPOINF` | 1 | 61 |
-| `CDEV` | 2 | 62-63 |
-| `FVAR` | 8 | 64-71 |
-| `CVAR` | 1 | 72 |
-| `CPSVIA` | 5 | 73-77 |
-| `DPSVIA` | 50 | 78-127 |
-
-Observación empírica:
-
-- Igual que en `VIAS`, la parte de identificación y la de datos finales aparecen duplicadas en snapshots.
-- `TIPOINF`, `CDEV` y `CVAR` van vacíos en todos los registros observados.
-
-## `TRAM`
-
-Campos según `Dis_nuevo.xlsx`: 39 campos, 273 posiciones.
-
-Aspecto importante:
-
-- La primera mitad describe la clave del tramo.
-- La segunda mitad vuelve a exponer la situación final del tramo, añadiendo nombres cortos y descripción de pseudovía.
-
-Observación empírica:
-
-- Los pares duplicados de clave coinciden al 100 % en el snapshot de enero de 2026 (`DIST`, `SECC`, `LSECC`, `SUBSC`, `CUN`, `CVIA`, `CPSVIA`, `MANZ`, `CPOS`, `TINUM`, `EIN`, `CEIN`, `ESN`, `CESN`).
-- `TINUM` sólo toma los valores `0`, `1` y `2`, coherentes con "sin numeración", "impar" y "par".
-
-## `UP`
-
-Campos según `Dis_nuevo.xlsx`: 19 campos, 604 posiciones.
-
-Claves:
-
-- `CPRO` 1-2
-- `CMUN` 3-5
-- `CUN` 6-12
-
-Los nombres no se usan de forma homogénea. Uso observado por tipo de `CUN`:
-
-- Municipio (`CUN = 0000000`): se rellena `NMUN50`, no `NMUN`
-- Entidad colectiva (`CC00000`): se rellena `NENTCO`, `NENTCO50`, `NENTCOC`
-- Entidad singular (`CCSSD00`): se rellena siempre `NENTSI*`
-- Núcleo/diseminado (`CCSSDNN`): se rellena siempre `NNUCLE*`
-
-Distribución observada en enero de 2026:
-
-- Municipios: 8132
-- Entidades colectivas: 4904
-- Entidades singulares: 62190
-- Núcleos/diseminados: 78917
-
-## `SECC`
-
-`SECC` es muy pequeño:
-
-| Campo | Longitud | Posiciones |
-| --- | ---: | --- |
-| `CPRO` | 2 | 1-2 |
-| `CMUN` | 3 | 3-5 |
-| `DIST` | 2 | 6-7 |
-| `SECC` | 3 | 8-10 |
-| `LSECC` | 1 | 11 |
-
-Observación empírica:
-
-- En enero de 2026, `LSECC` aparece siempre en blanco en todos los registros observados.
+Las discrepancias entre fuentes y la interpretación prudente de los nombres de
+fichero están en [fuentes y alcance](./sources_and_scope.md).
