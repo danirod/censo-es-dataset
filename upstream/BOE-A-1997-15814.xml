@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218162601">
+  <metadatos>
+    <identificador>BOE-A-1997-15814</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+    <rango codigo="1350">Orden</rango>
+    <fecha_disposicion>19970711</fecha_disposicion>
+    <numero_oficial/>
+    <titulo>Orden de 11 de julio de 1997 sobre comunicaciones electrónicas entre las Administraciones públicas referentes a la información de los Padrones municipales.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>19970716</fecha_publicacion>
+    <diario_numero>169</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>21804</pagina_inicial>
+    <pagina_final>21815</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/1997/07/16/pdfs/A21804-21815.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>19970717</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/o/1997/07/11/(3)</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1997/07/11/(3)">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-15814</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-11</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3)</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5340"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-15814</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-11</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3)</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5340"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/1997/07/11/(3)"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 11 de julio de 1997 sobre comunicaciones electrónicas entre las Administraciones públicas referentes a la información de los Padrones municipales.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-16</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1997/07/11/(3)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="5340" orden="2">Padrón Municipal</materia>
+      <materia codigo="7854" orden="1">Protección de datos personales</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1996-4594" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>arts. 7.1.B) y 9 del Real Decreto 263/1996, de 16 de febrero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1992-26318" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>art. 45.5 de la Ley 30/1992, de 26 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1986-21944" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>arts. 65 y 66 del Reglamento aprobado por Real Decreto 1690/1986, de 11 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1997-810" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Real Decreto 2612/1996, de 20 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1996-753" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 4/1996, de 10 de enero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1995-7239" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley Orgánica 3/1995, de 23 de marzo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1985-11672" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley Orgánica 5/1985, de 19 de junio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">La Ley Orgánica 3/1995, de 23 de marzo, de modificación de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, sustituyó el sistema de revisión anual del Censo Electoral por un nuevo sistema de revisión continua, estableciendo la remisión mensual</p>
+    <p class="parrafo">por parte de los Ayuntamientos de las variaciones de los inscritos en el Censo Electoral producidas durante el mes anterior.</p>
+    <p class="parrafo">Por otra parte, la Ley 4/1996, de 10 de enero, por la que se modifica la Ley 7/1985, de 2 de abril, reguladora de las Bases del Régimen Local, en relación con el Padrón municipal, instaura un nuevo sistema de gestión informática de los Padrones municipales, de carácter activo y permanente, que requiere la remisión periódica entre Administraciones de las variaciones que se hayan producido en las inscripciones padronales de todos los Ayuntamientos. Esta misma Ley obliga a los Ayuntamientos, o subsidiariamente a las Diputaciones provinciales, Cabildos o Consejos Insulares, a asumir la gestión informatizada de los Padrones municipales.</p>
+    <p class="parrafo">El sustancial incremento de las comunicaciones inter administrativas que estas nuevas normas legales deben producir, obliga a revisar los procedimientos que hasta ahora se venían utilizando, basados en documentos en papel remitidos por correo, y su sustitución por las nuevas técnicas informáticas y telemáticas reguladas en el artículo 45 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común. En este sentido, el Real Decreto 2612/1996, de 20 de diciembre, por el que se modifica el Reglamento de Población y Demarcación Territorial de las Entidades Locales establece que las comunicaciones de las variaciones acaecidas en los Padrones municipales se deberán enviar al Instituto Nacional de Estadística por medios informáticos o telemáticos, y que éste deberá comunicar a los Ayuntamientos, por el mismo procedimiento, las discrepancias detectadas.</p>
+    <p class="parrafo">Estas nuevas técnicas, sin embargo, sólo alcanzan su objetivo de agilizar y facilitar las comunicaciones cuando los sistemas informáticos emisor y receptor se entienden de una manera automática, para lo que es esencial que se definan unos formatos de cada campo de la información y se diseñen unos registros de los ficheros de intercambio que se respeten por todas las partes en el momento de llevar a cabo la comunicación.</p>
+    <p class="parrafo">Con esta finalidad, y en ejecución del principio de cooperación entre Administraciones proclamado por el título I de la citada Ley 30/1992, las reuniones de trabajo mantenidas entre representantes del Ministerio de Administraciones Públicas, del Instituto Nacional de Estadística, de la Oficina del Censo Electoral y de la Federación de Municipios y Provincias han producido como resultado final un completo acuerdo sobre un texto que define técnicamente las características de los ficheros informáticos de intercambio de los datos que se contienen en los Padrones municipales.</p>
+    <p class="parrafo">Evidentemente, esta definición deberá aplicarse a todas las comunicaciones que se lleven a cabo entre el Instituto Nacional de Estadística, la Oficina del Censo Electoral y los Ayuntamientos, pero su vocación es más general y aspira a que toda comunicación entre Administraciones Públicas, que tenga por objeto alguno de esos datos, se ajuste también a estas normas.</p>
+    <p class="parrafo">Las instrucciones técnicas concretas que se contienen en el documento aprobado se han basado y respetan íntegramente los criterios determinados en anteriores proyectos y actuaciones de carácter «estandarizador» llevados a cabo en el seno de COAXI (Comisión Nacional para la Cooperación entre Administraciones Públicas en el campo de los Sistemas y Tecnologías de la Información). Y, por ello, podrían calificarse las actuales normas como un desarrollo específico de los proyectos SISTER (Sistema Integrado de Referenciación Territorial) e INDALO (Modelo de Datos de Intercambio entre Administraciones) para la informatización de los Padrones municipales de habitantes.</p>
+    <p class="parrafo">De conformidad con lo dispuesto en el artículo 45.5 de la Ley 30/1992, de 26 de noviembre, tal como ha sido desarrollado en los artículos 7.1.b) y 9 del Real Decreto 263/1996, de 16 de febrero, por el que se regula la utilización de técnicas electrónicas, informáticas y telemáticas por la Administración General del Estado, y de los artículos 65 y 66 del Reglamento de Población y Demarcación Territorial de las Entidades Locales, aprobado por Real Decreto 1690/1986, de 11 de julio, en su redacción dada por el artículo único del Real Decre to 2612/1996, de 20 de diciembre, y disposición final primera del citado Real Decreto 2612/1996, procede ahora la aprobación y publicación de estas instrucciones técnicas.</p>
+    <p class="parrafo">En su virtud, a propuesta de los Ministros de Economía y Hacienda y de Administraciones Públicas, dispongo:</p>
+    <p class="parrafo">Primero. Aprobación de instrucciones técnicas.</p>
+    <p class="parrafo">Se aprueban las instrucciones técnicas sobre comunicaciones electrónicas entre las Administraciones Públicas, referentes a la información de los Padrones municipales, que se incluyen como anexo a esta Orden.</p>
+    <p class="parrafo">Segundo. Comunicaciones.</p>
+    <p class="parrafo">1. Las comunicaciones que se lleven a cabo entre el Instituto Nacional de Estadística, la Oficina del Censo Electoral y los Ayuntamientos, en el marco de las actuaciones determinadas por la normativa legal reguladora del Régimen Electoral General, así como del Régimen Local en relación con el Padrón municipal, se ajustarán a lo dispuesto en las instrucciones técnicas que figuran en el citado anexo.</p>
+    <p class="parrafo">2. Asimismo, todas las comunicaciones entre Administraciones Públicas de alguno de los datos que constan en el Padrón municipal se ajustarán, siempre que sea técnicamente posible, a las referidas instrucciones técnicas.</p>
+    <p class="parrafo">Disposición transitoria única. Régimen transitorio de comunicaciones.</p>
+    <p class="parrafo">A efectos de la actualización mensual del Censo Electoral, los Ayuntamientos que transitoriamente no puedan ajustar sus comunicaciones a lo dispuesto en la presente Orden podrán continuar efectuándolas según las instrucciones dictadas por la Oficina del Censo Electoral.</p>
+    <p class="parrafo">Disposición final primera. Facultades de desarrollo.</p>
+    <p class="parrafo">Se faculta al Instituto Nacional de Estadística para dictar, a propuesta del Consejo de Empadronamiento, las resoluciones e instrucciones que complementen o actualicen el contenido de esta Orden.</p>
+    <p class="parrafo">Disposición final segunda. Entrada en vigor.</p>
+    <p class="parrafo">La presente Orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo">Madrid, 11 de julio de 1997.</p>
+    <p class="parrafo">ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+    <p class="parrafo">Excmos. Sres. Vicepresidente Segundo del Gobierno, Ministro de Economía y Hacienda y Ministro de Administraciones Públicas.</p>
+    <p class="parrafo">ANEXO</p>
+    <p class="parrafo">Diseños de registro de los ficheros de intercambio de información referentes al Padrón municipal</p>
+    <p class="parrafo">A) INTRODUCCIÓN</p>
+    <p class="parrafo">La estructuración de los datos para facilitar el intercambio de información referente al Padrón municipal, requiere de unos requisitos mínimos para que el intercambio informático pueda ser realizado con éxito.</p>
+    <p class="parrafo">Las estructuras mínimas que se detallan en el anexo han pretendido seguir la normativa señalada en INDALO, aunque se han simplificado con el fin de que los Ayuntamientos suministradores de información puedan, en corto plazo de tiempo, adaptarse tanto a INDALO como a los diseños de intercambio.</p>
+    <p class="parrafo">Las modificaciones de datos del Padrón municipal pueden producirse a dos niveles distintos: Nivel de territorio y nivel de población, niveles que se interrelacionan siendo imposible entender la población si no es en un marco geográfico. Son estos dos niveles los que se pretenden normalizar en cuanto a intercambio de información del Padrón municipal.</p>
+    <p class="parrafo">El territorio nacional se encuentra dividido en una serie de «capas». La superposición de éstas nos llevará hasta el nivel mínimo de detalle que se pretende conseguir, las direcciones postales.</p>
+    <p class="parrafo">La primera subdivisión territorial es a nivel provincial en la que se encuentra definido el nivel municipal.</p>
+    <p class="parrafo">El nivel municipal se encuentra subdividido en dos capas: División geográfica por unidades poblacionales y división geográfica por secciones.</p>
+    <p class="parrafo">a) División geográfica por unidades poblacionales</p>
+    <p class="parrafo">a.1 Entidad singular de población: Cualquier área habitable del término municipal, habitada, o excepcionalmente deshabitada, claramente diferenciada dentro del mismo, y que es conocida por una denominación específica que la identifica sin posibilidad de confusión.</p>
+    <p class="parrafo">Las entidades singulares estarán constituidas por núcleos de población y/o un diseminado de acuerdo con las siguientes denominaciones:</p>
+    <p class="parrafo">a.2 Núcleo de población: Conjunto de, al menos, diez edificaciones, que están formando calles, plazas y otras vías urbanas. Excepcionalmente el número de edificaciones podrá ser inferior a 10 siempre que la población de derecho supere los 50 habitantes.</p>
+    <p class="parrafo">a.3 Diseminado: Edificaciones o viviendas de una entidad singular de población que no pueden ser incluidos en el concepto de núcleo.</p>
+    <p class="parrafo">a.4 Entidad colectiva de población: Como unidad intermedia entre la entidad singular de población y el municipio existen en algunas regiones agrupaciones de entidades singulares (parroquias, hermandades, anteiglesias, etc.) que conforman una entidad colectiva de población con identidad propia.</p>
+    <p class="parrafo">b) División geográfica por secciones</p>
+    <p class="parrafo">La división del término municipal en distritos, y éstos a su vez en secciones estadísticas, ha constituido un instrumento eficaz tanto en los trabajos censales como en las renovaciones padronales.</p>
+    <p class="parrafo">La sección estadística es esencialmente un área del terreno del término municipal, viniendo su tamaño determinado por el número de electores. Cada vivienda o habitante ha de pertenecer a una y sólo una sección, donde cada sección debe estar perfectamente definida mediante límites identificables, tales como accidentes naturales del terreno y construcciones de carácter permanente.</p>
+    <p class="parrafo">El número de electores por sección debe estar comprendido entre 500 y 2.000.</p>
+    <p class="parrafo">A efectos de Censo Electoral, las secciones se dividirán en subsecciones.</p>
+    <p class="parrafo">Para la asignación de electores a mesas electorales, las secciones pueden ser de dos tipos:</p>
+    <p class="parrafo">1. Alfabéticas, en las cuales la división en mesas se realiza por criterio alfabético (los electores de la sección pueden ser asignados a mesas teniendo en cuenta sus apellidos).</p>
+    <p class="parrafo">2. Con subsecciones, en las cuales la división en mesas se realiza por criterio territorial (los electores de la sección deben ser asignados a mesas por criterios geográficos y, en su caso, teniendo en cuenta los apellidos).</p>
+    <p class="parrafo">A nivel municipal, y al margen de las divisiones geográficas anteriores, puede definirse la vía.</p>
+    <p class="parrafo">Una vía vendrá definida por su tipo (calle, plaza...) y su denominación de forma que en un determinado municipio no podrá existir más de una vía lógica con igual tipo y denominación.</p>
+    <p class="parrafo">Lo normal es que sobre el terreno exista una sola vía con un determinado tipo-denominación de vía, es decir, una vía lógica se correspondería con una sola vía física.</p>
+    <p class="parrafo">Excepcionalmente dos (o más) vías físicamente distintas pueden tener el mismo tipo-denominación, es decir, que una determinada vía lógica se correspondería con dos (o más) vías físicas.</p>
+    <p class="parrafo">Esta situación ocasionará anomalías cara a la gestión del INE, por lo que se deberán deshacer las ambigüedades entre vías físicas y lógicas de forma que se establezca la relación de que una vía lógica únicamente se corresponda con una vía física. Para ello, el Ayuntamiento deberá determinar estas situaciones y asignar códigos de vía distintos a cada una de las vías físicas detectadas, siendo obligatorio que se identifiquen cada una de estas vías incluyendo al final de la denominación y entre paréntesis el nombre de la entidad singular, núcleo de población a la que pertenece o cualquier otro literal que se crea identificativo.</p>
+    <p class="parrafo">Para permitir un intercambio adecuado de información es preciso que el atributo tipo de vía pueda ser entendido por todos los usuarios sea cual sea el idioma en que esté escrito, y, por lo tanto, será precisa una normalización de los mismos.</p>
+    <p class="parrafo">En general, el territorio se identifica mediante las vías físicas debidamente rotuladas y numeradas. En otros casos la identificación se realiza a través de la unidades poblacionales (entidades, núcleos/diseminados). Además, la experiencia de la gestión continua de los callejeros de Censo Electoral en su relación con los Ayuntamientos ha originado la necesidad de introducir una forma adicional de identificación del territorio que se ha denominado pseudovía.</p>
+    <p class="parrafo">Se define la pseudovía como todo aquello que no es ni unidad poblacional ni vía, que sustituye a la vía en el caso de que no exista y la complementa en caso contrario.</p>
+    <p class="parrafo">Finalmente los tramos de vía serán el resultado de la intersección de las capas secciones (incluida la subsección), unidades poblacionales y vías (o pseudovía en su caso) en función de su pertenencia a una misma manzana y a una misma zona postal.</p>
+    <p class="parrafo">Según esta división territorial, la unidad básica de referenciación territorial sería el tramo, a partir del cual podremos deducir el resto de los atributos del territorio.</p>
+    <p class="parrafo">Los habitantes del municipio son todos aquellos que se encuentren inscritos en su Padrón municipal de habitantes. Cada habitante posee unos atributos, unos de tipo personal (nombre, sexo) y otros de carácter territorial (municipio de residencia, vía de residencia). El nexo de unión entre la población y el territorio es precisamente la localización geográfica de la residencia del habitante, el domicilio, a través del tramo en que se localiza.</p>
+    <p class="parrafo">Teniendo en cuenta la estructuración en que nos basamos, existirán una serie de entidades cuyas relaciones se especifican en el siguiente gráfico:</p>
+    <p class="parrafo">(GRAFICO OMITIDO)</p>
+    <p class="parrafo">B) FICHEROS DE INTERCAMBIO</p>
+    <p class="parrafo">b.1 Normas generales: Los diseños de los ficheros de intercambio de información relativa al Padrón municipal, recogidos en la presente norma, se utilizarán en los intercambios de información entre el INE y los Ayuntamientos, en el envío de información del INE y Ayuntamientos hacia otros organismos de la Administración General del Estado y, siempre que sea técnicamente posible, en las comunicaciones que se establezcan entre otros organismos de la Administración General del Estado entre sí y en el envío de información de éstos al INE o a los Ayuntamientos. Las normas de procedimiento recogidas en esta norma son específicas para las comunicaciones INE-Ayuntamientos.</p>
+    <p class="parrafo">En las comunicaciones que se establezcan, únicamente se remitirán las variaciones de los diferentes ficheros, con excepción de aquellos casos en que precise la remisión o envío de ficheros completos.</p>
+    <p class="parrafo">Los datos de identificación del registro deberán coincidir con los datos del registro a modificar con que cuenta el INE.</p>
+    <p class="parrafo">Como regla general, en los ficheros de intercambio siempre existirán dos partes diferenciadas: Identificación del registro antes de la variación y contenido del registro después de la variación.</p>
+    <p class="parrafo">En las estructuras de los ficheros de intercambio que se especifican en las siguientes hojas se indican la existencia de dos campos:</p>
+    <p class="parrafo">1. FVAR: Fecha de Variación N(8) con formato AAAAMMDD donde AAAA = Año, MM = Mes y DD = Día de variación del registro.</p>
+    <p class="parrafo">2. CVAR: Código de variación, que deberá ajustarse al contenido de la siguiente tabla:</p>
+    <p class="parrafo">CVAR / Descripción / CVAR / Descripción</p>
+    <p class="parrafo">A. / Alta. / B. / Baja.</p>
+    <p class="parrafo">M. / Modificación. / F. / Fusión.</p>
+    <p class="parrafo">S. / Segregación. / Blanco. / Sin rectificación.</p>
+    <p class="parrafo">Los códigos de variación serán A = Alta, B = Baja y M = Modificación; además, para objetos de tipo territorial, existirán otros dos códigos de variación: F = Fusión y S = Segregación.</p>
+    <p class="parrafo">Al margen de las especificaciones que se realicen para cada fichero el contenido de los ficheros de intercambio según el código de variación será el siguiente:</p>
+    <p class="parrafo">Datos iniciales</p>
+    <p class="parrafo">de identificación / Código variación / Datos tras variación</p>
+    <p class="parrafo">Alta (A). / Blanco. / Cumplimentados.</p>
+    <p class="parrafo">Baja (B). / Cumplimentados. / Blanco.</p>
+    <p class="parrafo">Modificación (M). / Cumplimentados. / Cumplimentados.</p>
+    <p class="parrafo">Fusión (F). / Cumplimentados. / Cumplimentados.</p>
+    <p class="parrafo">Segregación (S). / Cumplimentados. / Cumplimentados.</p>
+    <p class="parrafo">En sentido general una fusión implica que dos objetos territoriales del mismo tipo se unen entre sí. Por ejemplo, la vía A se une a la vía B dando lugar a la vía C, unión de ambas, o la vía A absorbe a la vía B, en este último caso la vía A será la suma de ambas.</p>
+    <p class="parrafo">En los ficheros de intercambio las fusiones dan lugar a duplicación de registros en la situación final, ya que dos o más objetos territoriales (parte inicio) dan lugar a uno solo (parte final). Este tipo de registros deberán estar marcados con CVAR = F (fusión).</p>
+    <p class="parrafo">Una segregación será el proceso inverso al de fusión, es decir un determinado objeto se divide en dos o más objetos, siendo sinónimo de división de objetos.</p>
+    <p class="parrafo">Cuando las variaciones se produzcan por segregaciones, las situaciones de origen y destino se darán a la inversa, con duplicación de datos en la parte inicial, registros que serán marcados con CVAR = S.</p>
+    <p class="parrafo">Las fusiones y segregaciones de objetos territoriales implican una remodelación territorial, a diferencia del resto de variaciones, que implican la creación de unidades no existentes previamente, la eliminación de ellas o la modificación de sus atributos.</p>
+    <p class="parrafo">En cualquier caso el Ayuntamiento indicará en «datos iniciales» la situación de registro antes de la actualización y en «datos tras variación» la situación final que se obtendría al realizar la rectificación con todos y cada uno de los datos cumplimentados (aunque un dato en particular no haya sufrido variación).</p>
+    <p class="parrafo">El INE, cuando sea necesario, devolverá los ficheros a los Ayuntamientos en el mismo formato de intercambio y con el mismo contenido que el exigido para los Ayuntamientos.</p>
+    <p class="parrafo">En ningún caso, los datos que aparecen marcados con asterisco (*) en los ficheros de intercambio pueden estar a blancos.</p>
+    <p class="parrafo">Adicionalmente, se podrá solicitar la remisión de los ficheros completos (no solo variaciones). En este caso los formatos de intercambio serán los mismos que en el caso de variaciones, pero para cualquier tipo de variación (incluido código de variación a blancos = sin modificación) los ficheros se remitirán con todos y cada de los campos con contenido (como si se tratase de modificaciones).</p>
+    <p class="parrafo">En las siguientes páginas se describen cada uno de los ficheros de intercambio. Cuando un determinado campo necesite explicación, ésta se realizará la primera vez que aparezca este campo en los diseños de registros; de existir este campo en ficheros posteriores, se deberá entender (salvo notaciones en contra) que deberá cumplir con las características señaladas en la primera aparición.</p>
+    <p class="parrafo">b.2 Descripción de Ficheros de Intercambio:</p>
+    <p class="parrafo">1. Relación de Unidades Poblacionales.-Contendrá las variaciones producidas al Nomenclátor de Unidades Poblacionales. El diseño de registro del fichero de intercambio se ajustará a la siguiente estructura.</p>
+    <p class="parrafo">Campo / Descripción / Atr. / Ob.</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">identif. / CPRO * / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUM * / Código de municipio. / N(3)</p>
+    <p class="parrafo">CUN / Código de unidad poblacional. / N(7) / 1</p>
+    <p class="parrafo">TIPOINF / Tipo de información. / A(1) / 2</p>
+    <p class="parrafo">CDEV / Causa de devolución. / A(2) / 3</p>
+    <p class="parrafo">FVAR / Fecha de variación. / N(8)</p>
+    <p class="parrafo">CVAR / Código de variación. / A(1)</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">variac. / NMUM / Nombre del municipio. / A(70) / 4</p>
+    <p class="parrafo">DMUN50 / Nombre de 50 caracteres. / A(50) / 4</p>
+    <p class="parrafo">NMUNC / Nombre corto. / A(25) / 4</p>
+    <p class="parrafo">NENTCO / Nombre entidad colectiva. / A(70) / 4</p>
+    <p class="parrafo">NENTCO50 / Nombre de 50 caracteres. / A(50) / 4</p>
+    <p class="parrafo">NENTCOC / Nombre corto. / A(25) / 4</p>
+    <p class="parrafo">NENTSI / Nombre de entidad singular. / A(70) / 4</p>
+    <p class="parrafo">NENTSI50 / Nombre de 50 caracteres. / A(50) / 4</p>
+    <p class="parrafo">NENTSIC / Nombre corto / A(25) / 4</p>
+    <p class="parrafo">NNUCLE / Nombre de núcleo/diseminado. / A(70) / 4</p>
+    <p class="parrafo">NNUCLE50 / Nombre de 50 caracteres. / A(50) / 4</p>
+    <p class="parrafo">NNUCLEC / Nombre corto. / A(25) / 4</p>
+    <p class="parrafo">Observaciones:</p>
+    <p class="parrafo">1. El campo CUN será cumplimentado por el INE, que remitirá periódicamente a los Ayuntamientos la codificación asignada.</p>
+    <p class="parrafo">Este campo presenta la estructura CCSSDNN, donde CC = Código de entidad colectiva, SS = Código de entidad singular, D = Dígito de control obtenido por el método ABC a partir del conjunto formado por CC y SS y NN = Código de núcleo (Si = 99, es *DISEMINADO*).</p>
+    <p class="parrafo">2. TIPOINF: Tipo de información que se incluye en el registro. Valores válidos:</p>
+    <p class="parrafo">Blanco: Comunicaciones procedentes de Ayuntamientos/INE.</p>
+    <p class="parrafo">C: Cumplimentada. La información marcada con C indicará al Ayuntamiento que el INE ha cumplimentado datos (códigos en altas...) y la devuelve al Ayuntamiento.</p>
+    <p class="parrafo">R: Rechazada. La información marcada con R indicará que ha sido errónea, tanto por los contrastes realizados por el INE a la información remitida por los Ayuntamientos como por los contrastes que realicen los Ayun tamientos a las propuestas de variación remitidas por el INE.</p>
+    <p class="parrafo">3. CDEV: Cuando la información sea rechazada, se deberá indicar la causa de la devolución según una tabla de posibles causas de devolución por rechazo de la información que será proporcionada por el INE.</p>
+    <p class="parrafo">Las propuestas de variación aceptadas por el INE, para reducir el tráfico de información, no serán reenviadas a los Ayuntamientos.</p>
+    <p class="parrafo">4. La longitud máxima del nombre de una determinada unidad poblacional es de 70 caracteres. Las dificultades de diseño con esta longitud hacen recomendable reducir estas denominaciones a longitudes más adecuadas para diseño de listados, pantallas, etc. (nombres de 50 caracteres) y a otras más adecuadas para intercambio de información (nombres cortos de 25 caracteres).</p>
+    <p class="parrafo">Inicialmente, el INE realizará contracciones de las denominaciones que excedan de los tamaños indicados y pondrá en conocimiento de los Ayuntamientos tal reducción. Con los intercambios futuros de información será responsabilidad de cada Ayuntamiento realizar las contracciones adecuadas.</p>
+    <p class="parrafo">5. Cumplimentación del fichero de intercambio:</p>
+    <p class="parrafo">5.1 Para municipios: Para que tengan validez las variaciones a nivel municipal éstas deben inscribirse en el Registro de Entidades Locales del Ministerio para las Administraciones Públicas quien periódicamente comunicará al INE cada una de las variaciones. Por consiguiente, el INE modificará o cumplimentará los campos correspondientes de acuerdo a lo siguiente:</p>
+    <p class="parrafo">1) Si ha existido un alta de un municipio: CUN = 0000000, CVAR = A y NMUN, NMUN50 y NMUNC tendrán contenido.</p>
+    <p class="parrafo">2) Si un municipio se da de baja: CUN = 0000000, CVAR = B y NMUN, NMUN50 y NMUNC irán en blanco.</p>
+    <p class="parrafo">3) Si se ha producido un cambio de denominación: CUN = 0000000, CVAR = M y NMUN, NMUN50 y NMUNC contendrán la nueva denominación.</p>
+    <p class="parrafo">5.2 Para el resto de unidades poblacionales:</p>
+    <p class="parrafo">Cuando CVAR = A (alta), el campo CUN deberá estar a blancos y el contenido de los datos de variación será el siguiente:</p>
+    <p class="parrafo">Alta de entidad colectiva: Tendrán contenido los campos de denominación municipal, NENTCO, NENTCO50 y NENTCOC.</p>
+    <p class="parrafo">Alta de entidad singular: Tendrán contenido los campos de denominación municipal, los de entidad colectiva (cuando la entidad singular esté incluida en una colectiva) y los campos NENTSI, NENTSI50 y NENTSIC.</p>
+    <p class="parrafo">Alta de núcleo/diseminado: Tendrán contenido los campos de denominación municipal, los de entidad colectiva (cuando la entidad singular esté incluida en una colectiva), los campos de denominación de entidad singular y los campos NNUCLE, NNUCLE50 y NNUCLEC.</p>
+    <p class="parrafo">Si el alta es de un diseminado tanto, los campos NNUCLE, NNUCLE50 y NNUCLEC vendrán cumplimentados con el literal *DISEMINADO* (con asteriscos).</p>
+    <p class="parrafo">5.3 Cuando CVAR = B (baja), los datos de variación se encontrarán a blancos y el campo CUN podrá tener los siguientes valores:</p>
+    <p class="parrafo">Baja de una entidad colectiva. El campo CUN tendrá el formato CC00000</p>
+    <p class="parrafo">Baja de una entidad singular. El campo CUN tendrá el formato CCSSD00</p>
+    <p class="parrafo">Baja de un núcleo/diseminado. El campo CUN tendrá el formato CCSSDNN.</p>
+    <p class="parrafo">5.4 Cuando CVAR = M (modificación), tendrán contenido los datos que efectivamente se modifican y siempre teniendo en cuenta el nivel jerárquico identificado en el campo CUN. Las modificaciones se referirán siempre a cambios en las denominaciones:</p>
+    <p class="parrafo">Modificación de una entidad colectiva. Tendrán contenido los campos NMUN-NMUN50-NMUNC y NENTCO-NENTCO50-NENTCOC. El campo CUN tendrá el formato CC00000.</p>
+    <p class="parrafo">Modificación de una entidad singular. Tendrán contenido los campos NMUN-NMUN50-NMUNC, NENTCO-NENTCO50-NENTCOC (cuando la entidad singular esté incluida en una colectiva) y NENTSI-NENTSI50-NENTSIC. El campo CUN tendrá el formato CCSSD00</p>
+    <p class="parrafo">Modificación de un núcleo. Tendrán contenido los campos NMUN-NMUN50-NMUNC, NENTCO-NENTCO50-NENTCOC (cuando la E. singular esté incluida en una colectiva), NENTSI-NENTSI50-NENTSIC y NNUCLE-NNUCLE50-NNUCLEC. El campo CUN tendrá el formato CCSSDNN.</p>
+    <p class="parrafo">5.5 Cuando CVAR = F (fusión), existirán, al menos, dos registros duplicados en datos de variación, que podrán coincidir o no con alguno de los datos de origen. Los datos de identificación siempre serán distintos y estarán completamente cumplimentados. Los datos finales (datos de variación) también estarán cumplimentados según el nivel jerárquico de la unidad poblacional resultante.</p>
+    <p class="parrafo">5.6 Cuando CVAR = S (segregación), existirán, al menos, dos registros duplicados en datos de identificación (inicio). De las unidades poblacionales resultantes (datos de variación) una sola de ellas podrá ser igual a la segregada, el resto no podrá existir previamente.</p>
+    <p class="parrafo">Los datos de identificación siempre serán iguales y estarán completamente cumplimentados. Los datos finales (datos de variación) también estarán cumplimentados según el nivel jerárquico de las unidades poblacionales resultantes.</p>
+    <p class="parrafo">2. Relación de vías.-El fichero de vías contendrá una relación biunívoca: Un registro por cada código de vía con su tipo y denominación. En general, dicho código se corresponderá con una vía física, si bien conceptualmente se corresponde con una vía lógica.</p>
+    <p class="parrafo">El fichero de intercambio se ajustará a la siguiente estructura:</p>
+    <p class="parrafo">Campo / Descripción / Atr. / Ob.</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">identif. / CPRO * / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUM * / Código de municipio. / N(3)</p>
+    <p class="parrafo">CVIA / Código de vía. / N(5) / 1</p>
+    <p class="parrafo">TIPOINF / Tipo de información. / A(1)</p>
+    <p class="parrafo">CDEV / Causa de devolución. / A(2)</p>
+    <p class="parrafo">FVAR / Fecha de variación. / N(8)</p>
+    <p class="parrafo">CVAR / Código de variación. / A(1)</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">variac. / CVIA / Código de vía. / N(5)</p>
+    <p class="parrafo">TVIA / Tipo de vía. / A(5) / 2</p>
+    <p class="parrafo">POS / Posición del tipo de vía. / N(1) / 3</p>
+    <p class="parrafo">NVIA / Nombre de vía. / A(50) / 4</p>
+    <p class="parrafo">NVIAC / Nombre corto. / A(25) / 4</p>
+    <p class="parrafo">Observaciones:</p>
+    <p class="parrafo">1. El código de vía será asignado por el Ayuntamiento (en su defecto por el INE). Debe ser numérico y único en el municipio. Para realizar las nuevas asignaciones, se recomienda que a la nueva vía lógica se asigne el número inmediatamente superior al último del municipio. Si hay que realizar bajas de vías, se recomienda que no se renumeren el resto de las vías, pudiendo entonces existir huecos en la numeración.</p>
+    <p class="parrafo">2. Los tipos de vía (calle, avenida...) nos identifican dos vías lógicas distintas con una misma denominación (calle Mayor, avenida Mayor...). El número de tipos de vía distintos es muy limitado y normalmente están expresados por medio de abreviaturas (C/, AV...), de forma que es más que probable que para un tipo de vía en concreto exista más de una abreviatura y que, por lo tanto, una misma vía pueda confundirse con dos o más vías diferentes (C Mayor, C/ Mayor, Calle Mayor).</p>
+    <p class="parrafo">El problema de las abreviaturas del tipo de vía se agrava con la existencia de diferentes grafismos (para un mismo tipo de vía) en los diferentes idiomas españoles (Avda. = Avenida, Avgda. = Avinguda), y así podríamos tener una misma vía escrita de muy diferentes formas y, por lo tanto, enmascarar la realidad de los callejeros municipales.</p>
+    <p class="parrafo">Por ello, es necesaria una normalización de los tipos de vía que pasa inexorablemente por asignar unos códigos (tipos de vía normalizados) a unos determinados y limitados tipos de vía que permitan identificar como iguales los tipos de vías escritos de diferentes formas y que no obliguen a un único grafismo del mismo. El resultado de esta normalización se plasmará en el fichero de tipos de vía que comentamos posteriormente.</p>
+    <p class="parrafo">3. Normalmente el tipo de vía se imprime como prefijo de la denominación de la vía; sin embargo, en ciertos idiomas (Euskera) el tipo de vía debe imprimirse como sufijo de su denominación. La colocación del tipo de vía se indicará vía a vía mediante el campo POS. que podrá tener el siguiente contenido:</p>
+    <p class="parrafo">0: El tipo de vía es prefijo de la denominación</p>
+    <p class="parrafo">1: El tipo de vía es sufijo de la denominación.</p>
+    <p class="parrafo">4. Al igual que ocurre con la denominación de las unidades poblacionales, el nombre oficial de la vía puede ser mayor de 25 caracteres, por lo que el Ayuntamiento deberá abreviar esta denominación e incluirla en el campo NVIAC.</p>
+    <p class="parrafo">Cuando existan dos o más vías físicas con iguales TVIA y NVIA, el Ayuntamiento deberá asignar códigos distintos a cada una de estas vías y eliminará estas duplicidades mediante la concatenación de la denominación de la vía y entre paréntesis un calificador a esta denominación. Es decir, en estos casos el campo NVIA estaría formado por la denominación de la vía más un calificador entre paréntesis.</p>
+    <p class="parrafo">Los nombres cortos (NVIAC) podrán tener idénticas denominaciones sea cual fuere el contenido del campo NVIA. Será el contenido del campo NVIAC el que se utilizará tanto para impresión de listas, remisión de tarjetas censales, así como para la denominación de la vía en los ficheros de intercambio.</p>
+    <p class="parrafo">5. Cumplimentación del fichero de intercambio.</p>
+    <p class="parrafo">5.1 CVAR = A (alta). Si el Ayuntamiento codifica las vías, los códigos de vías (identificación y variación) deberán tener el mismo contenido. En caso contrario ambos códigos permanecerán a blancos, el INE asignará el código correspondiente y lo remitirá al Ayuntamiento respectivo.</p>
+    <p class="parrafo">El resto de los datos de variación deben estar cumplimentados.</p>
+    <p class="parrafo">5.2 CVAR = B (baja). Todos los datos de identificación deben tener contenido y los datos de variación a blancos.</p>
+    <p class="parrafo">5.3 CVAR = M (modificación). Todos los datos del registro deben tener contenido.</p>
+    <p class="parrafo">5.4 Cuando CVAR = F (fusión), existirán, al menos, dos registros duplicados en datos de variación, que podrán coincidir o no con alguno de los datos de origen.</p>
+    <p class="parrafo">Los datos de identificación siempre serán distintos y estarán completamente cumplimentados. Los datos finales (datos de variación) también estarán completamente cumplimentados. Si la vía de destino es alta, puede faltar el código de vía de datos de variación, en cuyo caso el INE codificaría la nueva vía y la remitirá al Ayuntamiento correspondiente.</p>
+    <p class="parrafo">5.5 Cuando CVAR = S (segregación), existirán, al menos, dos registros duplicados en datos de identificación (inicio). De las vías resultantes (datos de variación) una sola de ellas podrá ser igual a la segregada, el resto no podrán existir previamente.</p>
+    <p class="parrafo">Los datos de identificación siempre serán iguales y estarán completamente cumplimentados. Los datos finales (datos de variación) también estarán cumplimentados (salvo las particularidades para el código de vía).</p>
+    <p class="parrafo">3. Relación de Pseudovías.-El fichero de pseudovías contendrá la descripción de aquellas unidades que no se encuadran en el concepto de unidad poblacional ni de vía (barrios, urbanizaciones, etc.), que sustituyen a la vía en el caso de que no exista o que la complementa en caso contrario.</p>
+    <p class="parrafo">La codificación de estas unidades las realizará el Ayuntamiento y, en su defecto, el INE; en este último caso será comunicada la codificación asignada a los respectivos Ayuntamientos por medio del fichero de intercambio específico que se ajustará a la siguiente estructura.</p>
+    <p class="parrafo">Se recomienda que los códigos asignados a las pseudovías no coincidan con los asignados a las vías.</p>
+    <p class="parrafo">Campo / Descripción / Atr. / Ob.</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">identif. / CPRO * / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUM * / Código de municipio. / N(3)</p>
+    <p class="parrafo">CPSVIA / Código de pseudovía. / N(5)</p>
+    <p class="parrafo">TIPOINF / Tipo de información. / A(1)</p>
+    <p class="parrafo">CDEV / Causa de devolución. / A(2)</p>
+    <p class="parrafo">FVAR / Fecha de variación. / N(8) CVAR / Código de variación. / A(1) / 1</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">variac. / CPSVIA / Código de pseudovía. / A(5)</p>
+    <p class="parrafo">DPSVIA / Descripción de pseudovía. / A(50)</p>
+    <p class="parrafo">Observaciones:</p>
+    <p class="parrafo">1. A pesar de ser un objeto de tipo territorial, no tienen sentido las variaciones de fusión y segregación.</p>
+    <p class="parrafo">2. La cumplimentación del fichero de intercambio se realizará de igual forma que para el fichero de relación de vías salvo lo referente a fusiones y segregaciones.</p>
+    <p class="parrafo">4. Relación de tipos de vía.-Para permitir un intercambio adecuado de información es preciso que el atributo tipo de vía pueda ser entendido por todos los usuarios sea cual sea el idioma en que esté escrito, y, por lo tanto, será precisa una normalización de los mismos.</p>
+    <p class="parrafo">Para el INE, los tipos de vía forman una tabla a nivel nacional, que trata de recoger los distintos tipos de vía de los Ayuntamientos, las abreviaturas y variantes empleadas para cada uno de ellos.</p>
+    <p class="parrafo">La formación y mantenimiento de la tabla de tipos de vía es responsabilidad del INE. Los Ayuntamientos solicitarán a las respectivas Delegaciones Provinciales del INE los tipos y variantes válidos, tras lo cual el INE remitirá la tabla actualizada a todos los Ayuntamientos.</p>
+    <p class="parrafo">El formato del fichero de remisión de la tabla de tipos de vía actualizada se ajustará al siguiente diseño:</p>
+    <p class="parrafo">Campo / Descripción / Atr. / Ob.</p>
+    <p class="parrafo">TVIAN / Tipo de vía normalizado. / A(5)</p>
+    <p class="parrafo">TVIA / Tipo de vía. / A(5)</p>
+    <p class="parrafo">DTVIA / Descripción del tipo de vía. / A(25)</p>
+    <p class="parrafo">Observaciones:</p>
+    <p class="parrafo">El número de tipos de vía en un determinado idioma es muy limitado, no así sus diferentes abreviaturas o las grafías en diferentes idiomas.</p>
+    <p class="parrafo">La tabla de tipos de vía contendrá la abreviatura del tipo de vía en castellano, asignado por el INE (TVIAN), todas sus abreviaturas asignadas por los Ayuntamientos (TVIA), así como las diferentes descripciones en cada una de las lenguas vernáculas.</p>
+    <p class="parrafo">Para cada tipo de vía normalizado podrán existir un número indeterminado de TVIA y DTVIA que deberán ser considerados como sinónimos del tipo de vía normalizado.</p>
+    <p class="parrafo">Por ejemplo, el INE ha normalizado los tipos de vía avenida y calle de la siguiente forma:</p>
+    <p class="parrafo">TVIAN / TVIA / DTVIA</p>
+    <p class="parrafo">Calle. / Calle. / Calle.</p>
+    <p class="parrafo">Avda. / Avda. / Avenida.</p>
+    <p class="parrafo">Si un Ayuntamiento solicita la inclusión del tipo de vía RUA como sinónimo de Calle, otro Avinguda (con abreviatura AV) como sinónimo de Avenida y un tercero solicita la inclusión de la abreviatura C/ como sinónimo de calle, así como la inclusión de Kalea (con igual abreviatura) para el mismo tipo de vía. El resultado final de la tabla de tipos de vía, tras la inclusión de estas modificaciones, sería la siguiente:</p>
+    <p class="parrafo">TVIAN / TVIA / DTVIA</p>
+    <p class="parrafo">Calle. / Calle. / Calle.</p>
+    <p class="parrafo">Calle. / Rúa. / Rúa.</p>
+    <p class="parrafo">Calle. / C/ / Calle.</p>
+    <p class="parrafo">Calle. / Kalea. / Kalea.</p>
+    <p class="parrafo">Avda. / Avda. / Avenida.</p>
+    <p class="parrafo">Avda. / Av. / Avinguda.</p>
+    <p class="parrafo">Los TVIA RUA, C/ y Kalea serían sinónimos de Calle/ mientras que AV lo sería de AVDA.</p>
+    <p class="parrafo">Únicamente los tipos de vía de esta tabla serán los permitidos en los ficheros de intercambio.</p>
+    <p class="parrafo">Es importante tener presente que definidos de esta forma los tipos de vía, dos vías serán distintas si difieren en su tipo de vía normalizado o en su denominación, por lo que se debería tener presente que sería un error considerar (según ejemplo) como distintas las vías C/ Mayor y rúa Mayor, ya que los tipos de vía son sinónimos del tipo de vía normalizado calle.</p>
+    <p class="parrafo">5. Relación de tramos.-La relación de tramos (tramero) es la pieza clave del conjunto de datos de tipo geográfico, a partir del cual identificado el tramo asociado a una vía, pseudovía o unidad poblacional y a un determinado número se podrá obtener el resto de la información complementaria a dicha identificación.</p>
+    <p class="parrafo">El formato de registro de intercambio se ajustará a la siguiente estructura:</p>
+    <p class="parrafo">Campo / Descripción / Atr. / Ob.</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">identif. / CPRO * / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUM * / Código de municipio. / N(3)</p>
+    <p class="parrafo">DIST * / Distrito. / N(2)</p>
+    <p class="parrafo">SECC * / Sección. / N(3)</p>
+    <p class="parrafo">LSECC * / Letra de sección. / A(1) / 3</p>
+    <p class="parrafo">SUBSC * / Subsección. / A(2) / 4</p>
+    <p class="parrafo">CUN / Código de unidad poblacional. / N(7)</p>
+    <p class="parrafo">CVIA / Código de vía. / N(5)</p>
+    <p class="parrafo">CPSVIA / Código de pseudovía. / N(5) / 6</p>
+    <p class="parrafo">MANZ / Manzana. / A(12) / 1</p>
+    <p class="parrafo">CPOS / Código postal. / N(5)</p>
+    <p class="parrafo">TINUM / Tipo de numeración. / N(1) / 7</p>
+    <p class="parrafo">EIN / Extremo inferior de numeración. / N(4) / 2</p>
+    <p class="parrafo">CEIN / Calificador EIN. / A(1) / 2</p>
+    <p class="parrafo">ESN / Extremo superior de numeración. / N(4) / 2</p>
+    <p class="parrafo">CESN / Calificador del ESN. / A(1) / 2</p>
+    <p class="parrafo">TIPOINF / Tipo de información. / A(1)</p>
+    <p class="parrafo">CDEV / Causa de devolución. / A(2)</p>
+    <p class="parrafo">FVAR / Fecha de variación. / N(8)</p>
+    <p class="parrafo">CVAR / Código de variación. / A(1)</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">variac. / DIST / Distrito. / N(2)</p>
+    <p class="parrafo">SECC / Sección. / N(3)</p>
+    <p class="parrafo">LSECC / Letra de sección. / A(1)</p>
+    <p class="parrafo">SUBSC / Subsección. / A(2)</p>
+    <p class="parrafo">CUN / Código de unidad poblacional. / N(7)</p>
+    <p class="parrafo">NENTCOC / Nombre corto de entidad colectiva. / A(25) / 5</p>
+    <p class="parrafo">NENTSIC / Nombre corto de entidad singular. / A(25) / 5</p>
+    <p class="parrafo">NNCLEC / Nombre corto de núcleo/diseminado. / A(25) / 5</p>
+    <p class="parrafo">CVIA / Código de vía. / N(5)</p>
+    <p class="parrafo">NVIAC / Nombre corto. / A(25)</p>
+    <p class="parrafo">CPSVIA / Código de pseudovía. / N(5)</p>
+    <p class="parrafo">DPSVIA / Nombre de pseudovía. / N(50)</p>
+    <p class="parrafo">MANZ / Manzana catastral. / A(12)</p>
+    <p class="parrafo">CPOS. / Código postal. / N(5)</p>
+    <p class="parrafo">TINUM / Tipo de numeración. / N(1)</p>
+    <p class="parrafo">EIN / Extremo inferior de numeración. / N(4)</p>
+    <p class="parrafo">CEIN / Calificador del EIN. / A(1)</p>
+    <p class="parrafo">ESN / Extremo superior de numeración. / N(4)</p>
+    <p class="parrafo">CESN / Calificador del ESN. / A(1)</p>
+    <p class="parrafo">Observaciones:</p>
+    <p class="parrafo">1. El origen de este campo debe ser el que posee la Dirección General del Catastro. Para obtenerlo, puede extraerse:</p>
+    <p class="parrafo">1.1 De la Cartografía Catastral Urbana, conside rando:</p>
+    <p class="parrafo">a) Los cinco primeros caracteres de la clave 12 [MANZ,A (12)], que figuran impresos dentro de la manzana urbana correspondiente en la hoja de la cartografía catastral.</p>
+    <p class="parrafo">b) Los siete restantes de la clave 12 [MANZ,A (12)] son los siete últimos que figuran en el recuadro «Referencia de la hoja» de la carátula de la hoja de la cartografía catastral.</p>
+    <p class="parrafo">1.2 Del Padrón del IBI de naturaleza urbana, de acuerdo con la estructura aprobada por Resolución de la Dirección General del Centro de Gestión Catastral y Cooperación Tributaria de 9 de febrero de 1995 («Boletín Oficial del Estado» del 23), considerando el campo «referencia catastral» dentro del bloque «identificación del bien inmueble», de cualquier inmueble incluido en la manzana correspondiente, tomando los cinco primeros caracteres del primer grupo de siete posiciones (posiciones de 9 a 13 del fichero) y los siete del segundo grupo (posiciones de 16 a 22 del fichero). Corresponde a las posiciones 1 a 5 y 8 a 14 de la referencia catastral que figura en los listados del padrón.</p>
+    <p class="parrafo">Si no se dispusiera de cartografía catastral, ni del padrón del IBI de naturaleza urbana, se cumplimenta rán las tres primeras posiciones, de la clave 12 [MANZ,A (12)], con el código asignado en las hojas de inscripción padronal dejando las restantes en blanco.</p>
+    <p class="parrafo">2. Los extremos de numeración serán el conjunto formado por su número y su calificador, teniendo entonces una estructura del tipo NNNNA, donde NNNN es numérico y «A» es blanco o letra.</p>
+    <p class="parrafo">El extremo inferior debe ser menor o igual al superior y la parte numérica de ambos campos debe ser par o impar al mismo tiempo.</p>
+    <p class="parrafo">La experiencia nos ha hecho comprobar que la estandarización de estos datos es muy compleja, y que las numeraciones que los propios Ayuntamientos asignan a los casos de duplicados y triplicados normalmente no se han ajustado a las instrucciones que el INE ha publicado para su cumplimentación. Por ello, creemos que es el momento de intentar normalizar estos datos de la siguiente forma.</p>
+    <p class="parrafo">Para una vía física podrán existir tres tramos de numeración:</p>
+    <p class="parrafo">a) Tramo de los pares.</p>
+    <p class="parrafo">b) Tramo de los impares.</p>
+    <p class="parrafo">c) Tramo de «sin numeración».</p>
+    <p class="parrafo">Tanto los tramos de pares o impares se definen a partir de las cuatro primeras posiciones numéricas. El caso de duplicados-triplicados, etc., se incluirán en la quinta posición alfabética simplemente asignando en orden creciente las letras del abecedario (por ejemplo, del 0018A al 0018Z, en el caso de los pares, y 0045A-0057Z, en el caso de impares); de esta forma, un intervalo de numeración de la forma 0003Z al 0099 incluiría todos los números superiores e iguales a 0003Z e iguales o inferiores a 0099.</p>
+    <p class="parrafo">Cuando no exista numeración, su estructura será siempre EIN=ESN=0000S.</p>
+    <p class="parrafo">Se recomienda que el tramero se ajuste lo más posible a la realidad, es decir que se indiquen los tramos reales y los números reales existentes.</p>
+    <p class="parrafo">No deben existir tramos solapados en ninguno de sus extremos.</p>
+    <p class="parrafo">3. La manzana es una unidad que no puede dividirse y que debe estar íntegramente incluida en una sección. Excepcionalmente, cuando el número de electores de una manzana sea superior a 2.000, la manzana podrá estar incluida en más de una sección. En este caso, las secciones involucradas estarán identificadas por medio de LSECC, manteniendo el mismo valor de SECC.</p>
+    <p class="parrafo">4. La división de secciones en subsecciones implica una codificación de cada una de ellas. Cuando la división en mesas de la sección es de tipo alfabético, el campo SUBSC deberá permanecer a blancos, mientras que si la división es de tipo territorial, su valor se asignará por</p>
+    <p class="parrafo">el Ayuntamiento en forma ascendente desde 1 a 99, según el número de territorios en que se haya dividido la sección.</p>
+    <p class="parrafo">5. Sólo estarán cumplimentados si se desconoce (ha sido alta y el INE no ha podido comunicar el código asignado) el contenido del campo CUN. En este caso es imprescindible que el ayuntamiento haya remitido al INE la actualización al Nomenclátor de Entidades.</p>
+    <p class="parrafo">6. Cuando el código de pseudovía tiene valor y, por lo tanto, no existe vía (código de vía igual a ceros), se deberá entender que los intervalos de numeración se corresponderán con los de la pseudovía.</p>
+    <p class="parrafo">Si tanto los códigos de vía como de pseudovía permanecen a ceros (no existe vía ni pseudovía), los intervalos de numeración se corresponderían con los de la unidad poblacional numerada.</p>
+    <p class="parrafo">7. El campo TINUM (tipo de numeración) podrá tener el siguiente contenido:</p>
+    <p class="parrafo">0: Tramo de «sin numeración».</p>
+    <p class="parrafo">1: Tramo de numeración impar.</p>
+    <p class="parrafo">2: Tramo de numeración par.</p>
+    <p class="parrafo">Si fuese preciso, en un futuro, este campo, podrá albergar el contenido para otros tipos de numeración.</p>
+    <p class="parrafo">8. Cumplimentación del fichero de intercambio.</p>
+    <p class="parrafo">CVAR=A (alta de tramo). Tendrán contenido los datos de identificación marcados con asterisco (*) y todos los datos de variación.</p>
+    <p class="parrafo">CVAR=B (baja de tramo). Tendrá contenido exclusivamente los datos de identificación.</p>
+    <p class="parrafo">CVAR=M (modificación de tramo). Todos los campos estarán cumplimentados.</p>
+    <p class="parrafo">CVAR=F (fusión de tramos). Todos los campos estarán cumplimentados.</p>
+    <p class="parrafo">CVAR=S (segregación de tramos). Todos los campos estarán cumplimentados.</p>
+    <p class="parrafo">6. Relación de habitantes.-Incluirá a todas las personas existentes en el Padrón Municipal de Habitantes. El contenido de esta relación es responsabilidad exclusiva del Ayuntamiento.</p>
+    <p class="parrafo">El diseño del fichero de intercambio se ajustará a la siguiente estructura:</p>
+    <p class="parrafo">Campo / Descripción / Atr. / Ob.</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">identif. / CPRO * / Código de provincia de residencia. / N(2)</p>
+    <p class="parrafo">CMUM * / Código de municipio de residencia. / N(3)</p>
+    <p class="parrafo">NOMB / Nombre. / A(20)</p>
+    <p class="parrafo">PART1 / Partícula primer apellido. / A(6) /  5</p>
+    <p class="parrafo">APE1 / Primer apellido.  / A(25)</p>
+    <p class="parrafo">PART2 / Partícula segundo apellido. / A(6) /  5</p>
+    <p class="parrafo">APE2 / Segundo apellido. / A(25)</p>
+    <p class="parrafo">CPRON / Código de provincia de nacimiento. / N(2)</p>
+    <p class="parrafo">CMUNN / Código de municipio de nacimiento. / N(3)</p>
+    <p class="parrafo">FNAC / Fecha de nacimiento. / N(8) /  7</p>
+    <p class="parrafo">TIDEN / Tipo de identificador. / N(1) /  8</p>
+    <p class="parrafo">LEXTR / Letra documento extranjeros. / A(1) / 14</p>
+    <p class="parrafo">IDEN / Identificador. / N(8) / 14</p>
+    <p class="parrafo">LIDEN / Código de control del identificador. / A(1) / 14</p>
+    <p class="parrafo">NDOCU / Número de documento. / A(20) / 14</p>
+    <p class="parrafo">NIA / Número de identificación del Ayuntamiento. / A(15) /  3</p>
+    <p class="parrafo">NIE / Número de identificación electoral. / N(11)</p>
+    <p class="parrafo">TIPOINF / Tipo de información. / A(1)</p>
+    <p class="parrafo">CDEV / Causa de devolución. / A(2)</p>
+    <p class="parrafo">FVAR / Fecha de variación. / N(8)</p>
+    <p class="parrafo">CVAR / Código de variación. / A(1)</p>
+    <p class="parrafo">CAUV / Causa de variación. / A(2) / 13</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">variac. / DIST / Distrito. / N(2)</p>
+    <p class="parrafo">SECC / Sección. / N(3)</p>
+    <p class="parrafo">LSECC / Letra de sección. / A(1)</p>
+    <p class="parrafo">CUN / Código de unidad poblacional. / N(7)</p>
+    <p class="parrafo">NENTCOC / Nombre corto. / A(25)</p>
+    <p class="parrafo">NENTSIC / Nombre corto. / A(25)</p>
+    <p class="parrafo">NNUCLEC / Nombre corto. / A(25)</p>
+    <p class="parrafo">CVIA / Código de vía. / N(5)</p>
+    <p class="parrafo">TVIA / Tipo de vía. / A(5)</p>
+    <p class="parrafo">NVIAC / Nombre corto. / A(25)</p>
+    <p class="parrafo">CPSVIA / Código de pseudovía. / N(5)</p>
+    <p class="parrafo">DPSVIA / Nombre de pseudovía. / A(50)</p>
+    <p class="parrafo">TINUM / Tipo de numeración. / N(1)</p>
+    <p class="parrafo">NUMBER / Número. / N(4) /  1</p>
+    <p class="parrafo">CNUMER / Calificador de NUMER. / A(1) /  1</p>
+    <p class="parrafo">NUMERS / Número (superior). / N(4) /  2</p>
+    <p class="parrafo">CNUMERS / Calificador de NUMERS (superior). / A(1) /  2</p>
+    <p class="parrafo">KMT / Kilómetro. / N(3) / 16</p>
+    <p class="parrafo">HMT / Hectómetro. / N(1) / 16</p>
+    <p class="parrafo">BLOQ / Bloque. / A(2) / 16</p>
+    <p class="parrafo">PORT. / Portal. / A(2) / 16</p>
+    <p class="parrafo">ESCA / Escalera. / A(2) / 16</p>
+    <p class="parrafo">PLAN / Planta. / A(3) / 16</p>
+    <p class="parrafo">PUER / Puerta. / A(4) / 16</p>
+    <p class="parrafo">TLOC / Tipo de local. / A(1) / 16</p>
+    <p class="parrafo">NIA / Número de identificación del Ayuntamiento. / A(15) /</p>
+    <p class="parrafo">NHOP / Número de hoja padronal. / A(10) /  4</p>
+    <p class="parrafo">NIE / Número de identificación electoral. / N(11) /</p>
+    <p class="parrafo">NOMB / Nombre del habitante. / A(20)</p>
+    <p class="parrafo">PART1 / Partícula del primer apellido. / A(6) APE1 / Primer apellido. / A(25)</p>
+    <p class="parrafo">PART2 / Partícula del segundo apellido. / A(6)</p>
+    <p class="parrafo">APE2 / Segundo apellido. / A(25)</p>
+    <p class="parrafo">SEXO / Sexo. / N(1) /  6</p>
+    <p class="parrafo">CPRON / Código provincia de nacimiento. / N(2) / 15</p>
+    <p class="parrafo">CMUNN / Código de municipio de nacimiento. / N(3) / 15</p>
+    <p class="parrafo">FNAC / Fecha de nacimiento. / N(8) /</p>
+    <p class="parrafo">TIDEN / Tipo de identificador. / N(1)</p>
+    <p class="parrafo">LEXTR / Letra documento extranjeros. / A(1)</p>
+    <p class="parrafo">IDEN / Identificador. / N(8)</p>
+    <p class="parrafo">LIDEN / Código de control del identificador. / A(1)</p>
+    <p class="parrafo">NDOCU / Número de documento. / A(20)</p>
+    <p class="parrafo">CNES / Código nivel de estudios. / N(2) /  9</p>
+    <p class="parrafo">NACI / Código de nacionalidad. / N(3) / 10</p>
+    <p class="parrafo">PRDP / Código de provincia de destino o procedencia. / N(2) / 11</p>
+    <p class="parrafo">y</p>
+    <p class="parrafo">15</p>
+    <p class="parrafo">MUDP / Código de municipio de destino o procedencia. / N(3) / 11</p>
+    <p class="parrafo">y</p>
+    <p class="parrafo">15</p>
+    <p class="parrafo">CODP / Código de consulado de destino-procedencia. / N(3) / 12</p>
+    <p class="parrafo">Observaciones:</p>
+    <p class="parrafo">1. Las numeraciones estarán formadas por el conjunto NUMER y CNUMER, con el mismo formato que los extremos de numeración del tramo. No deberá existir ningún número/calificador que no se encuentre comprendido en un tramo.</p>
+    <p class="parrafo">2. Cuando el domicilio del habitante presente doble numeración, los campos NUMER y CNUMER estarán cumplimentados con la numeración inferior y los campos NUMERS y CNUMERS con la numeración superior. Si el domicilio no presenta esta particularidad, estos dos campos deberán permanecer a blancos.</p>
+    <p class="parrafo">3. El campo NIA deberá ser asignado por el Ayuntamiento y deberá identificar sin ambigüedades al habitante. No deberá existir ningún habitante que no tenga asignado su correspondiente NIA.</p>
+    <p class="parrafo">4. El NHOP se asignará por los Ayuntamientos y deberá permitir identificar unívocamente cada vivienda en que existan habitantes dentro del municipio. Si el Ayuntamiento había numerado dentro de la sección, se recomienda que el número asignado sea precedido por seis caracteres compuestos por el distrito, la sección y la letra de la sección.</p>
+    <p class="parrafo">5. La identificación-ordenación de los habitantes por nombres se ve muy dificultada por la presencia de partículas de unión entre apellidos o al principio de cada de cada uno de ellos. Estas partículas deberán ser identificadas, eliminadas de los apellidos e incluidas en sus respectivos campos. En este sentido, INDALO identifica las siguientes partículas: DE, DEL, DE LA, DE LOS, LA, LAS, LOS, VAN, VD, TEN, relación que puede ser incrementada a indicación del INE.</p>
+    <p class="parrafo">La suma de las longitudes de los campos de partículas con los apellidos no deberá sobrepasar, en ningún caso la longitud de 25 caracteres, por lo que la longitud máxima de los apellidos cuando existan partículas será igual a 25-(longitud de partícula + 1).</p>
+    <p class="parrafo">6. Los valores posibles serán 1 = Varón, 6 = Mujer.</p>
+    <p class="parrafo">7. El formato de los campos de fecha será siempre AAAAMMDD, donde AAAA = Año, MM = Mes, DD = Día.</p>
+    <p class="parrafo">8. Indicará el tipo de documento que presenta el habitante para su identificación con los valores posibles: 1 = DNI, 2 = Pasaporte, 3 = Tarjeta de Residencia, 0 = Sin documento acreditativo.</p>
+    <p class="parrafo">9. El código de nivel de estudios unifica las codificaciones propuestas por INDALO y las solicitadas por el INE para censo electoral. Aquellos Ayuntamientos que aún no hayan incorporado en su Padrón la codificación propuesta por INDALO únicamente tendrán que cumplimentar los códigos cuyo segundo dígito sea 0.</p>
+    <p class="parrafo">Código / Descripción</p>
+    <p class="parrafo">10 / No sabe leer ni escribir.</p>
+    <p class="parrafo">11 / No sabe leer ni escribir.</p>
+    <p class="parrafo">20 / Titulación inferior al grado de escolaridad.</p>
+    <p class="parrafo">21 / Sin estudios.</p>
+    <p class="parrafo">22 / Enseñanza Primaria incompleta, cinco cursos de EGB o equivalente.</p>
+    <p class="parrafo">30 / Graduado Escolar o equivalente.</p>
+    <p class="parrafo">31 / Bachiller Elemental, Graduado Escolar, EGB completa, Primaria completa, certificado de escolaridad o equivalente.</p>
+    <p class="parrafo">32 / Formación Profesional primer grado, Oficialía industrial.</p>
+    <p class="parrafo">40 / Bachiller, Formación Profesional de segundo grado o títulos equivalentes o superiores.</p>
+    <p class="parrafo">41 / Formación profesional segundo grado, Maestría industrial.</p>
+    <p class="parrafo">42 / Bachiller superior, BUP.</p>
+    <p class="parrafo">43 / Otros titulados medios (Auxiliar de clínica, Secretariado, Programador informático, Auxiliar de vuelo, Diplomado en artes y oficios, etc.).</p>
+    <p class="parrafo">44 / Diplomado de escuelas universitarias (Empresariales, Profesorado de EGB, ATS y similares).</p>
+    <p class="parrafo">45 / Arquitecto o Ingeniero técnico.</p>
+    <p class="parrafo">46 / Licenciado universitario, Arquitecto o Ingeniero superior.</p>
+    <p class="parrafo">47 / Titulados de estudios superiores no universitarios.</p>
+    <p class="parrafo">48 / Doctorado y estudios de postgrado o especialización para licenciados.</p>
+    <p class="parrafo">10. Código de nacionalidad. Este código deberá existir siempre aunque se trate de españoles. Los códigos de nacionalidades se obtendrán de la Orden de 25 de septiembre de 1995 por la que se dictan las directrices e instrucciones técnicas para la realización del Padrón municipal de habitantes de 1996, así como de las observaciones realizadas en el anexo VII de esta misma Orden.</p>
+    <p class="parrafo">11. Un determinado habitante reside en un municipio determinado (CPRO-CMUN), pero este habitante puede ir a residir a otro municipio o puede ser que provenga de otro distinto. Estos últimos datos son los que se incorporarán en los campos (PRDP y MUDP). Estos campos deberán estar cumplimentados en los casos de variaciones intermunicipales del habitante tanto para el alta como para la baja.</p>
+    <p class="parrafo">Se determinará si son campos de procedencia o destino en conjunción con el código y causa de variación. Por ejemplo, un determinado habitante que reside en el municipio 001 de la provincia 01 cambiará su residencia al municipio 003 de la provincia 03. Los registros y valores de los campos a que daría lugar este cambio de residencia serían los siguientes:</p>
+    <p class="parrafo">Campo / Municipio 01 001 / Municipio 03 003</p>
+    <p class="parrafo">CPRO. / 01 / 03</p>
+    <p class="parrafo">CMUN. / 001 / 003</p>
+    <p class="parrafo">CVAR. / Baja / Alta</p>
+    <p class="parrafo">CAUV. / Variación residencial / Variación residencial</p>
+    <p class="parrafo">PRDP. / 03 / 01</p>
+    <p class="parrafo">MUDP. / 003 / 001</p>
+    <p class="parrafo">12. En los casos de variaciones residenciales con el extranjero, sería conveniente que se identificase el Consulado.</p>
+    <p class="parrafo">Cada Consulado se encuentra codificado independientemente del país en que se localiza, sin ser necesario que el Consulado en que se inscriba el emigrante se localice en el mismo país de residencia (o destino) ya que puede suceder que en un determinado país no existan Consulados.</p>
+    <p class="parrafo">13. La tabla de Causas de Variación (CAUV) en relación con los códigos de Variación (CVAR) se ajustará a la siguiente:</p>
+    <p class="parrafo">CVAR / CAUV / Descripción</p>
+    <p class="parrafo">A / OM. / Alta por omisión.</p>
+    <p class="parrafo">CR. / Alta por cambio de residencia.</p>
+    <p class="parrafo">NA. / Alta por nacimiento.</p>
+    <p class="parrafo">B / DE. / Baja por defunción.</p>
+    <p class="parrafo">II. / Baja por inclusión indebida.</p>
+    <p class="parrafo">DU. / Baja por duplicado.</p>
+    <p class="parrafo">CR. / Baja por cambio de residencia.</p>
+    <p class="parrafo">M / PE. / Modificación datos personales.</p>
+    <p class="parrafo">RD. / Rectificación de datos por modificaciones territoriales sin intervención del habitante.</p>
+    <p class="parrafo">CD. / Modificación cambio de domicilio.</p>
+    <p class="parrafo">14. Los documentos acreditativos del habitante (documento nacional de identidad, pasaporte, tarjeta de re sidencia) como norma deberían estar incluidos en el campo IDEN [N(8)], mientras que el tipo de documento vendría definido en el campo Tipo de Identificador (TIDEN).</p>
+    <p class="parrafo">A pesar de ello es probable que ciertas identificaciones de estos documentos (fundamentalmente pasaporte de extranjeros) no se adecuen al formato especificado en IDEN y sea preciso incluirlas en el campo de NDOCU (número de documento), es decir el campo NDOCU únicamente estará cumplimentado cuando por el formato del número del documento no pueda ser incluido en el campo IDEN (normalmente cuando el documento no está expedido por autoridades españolas).</p>
+    <p class="parrafo">15. En todos los casos de provincia-municipio tratados en este documento se está refiriendo a municipios del territorio español. En el caso de que se trate de variaciones residenciales con el extranjero, los códigos de provincia involucrados se marcarán con 66, mientras que los códigos de municipio estarán cumplimentados con el respectivo código de país. La codificación de estos últimos se obtendrá de la misma forma que para el campo NACI.</p>
+    <p class="parrafo">16. En estos campos se ha intentado obtener todas las posibilidades de direcciones postales. No debe olvidarse que la estructura señalada es siempre una estructura mínima y las particularidades de cada Ayuntamiento pueden y deben ser introducidas como atributos adicionales.</p>
+    <p class="parrafo">De forma general la ausencia de un determinado dato se indicará con blancos, aunque el dato en cuestión deba tener contenido numérico en caso de existir.</p>
+    <p class="parrafo">En los campos de bloque, portal, escalera, planta y puerta si su contenido es alfabético se justificará a la izquierda con blancos a la derecha, si el contenido es numérico se rellenará con ceros a la izquierda.</p>
+    <p class="parrafo">En función de las tablas utilizadas actualmente por diferentes organismos para ESCA, recomendamos la normalización de los casos más habituales en la tabla que a continuación se detalla:</p>
+    <p class="parrafo">ESCA / Descripción / ESCA / Descripción</p>
+    <p class="parrafo">EX. / Exterior. / IZ. / Izquierda.</p>
+    <p class="parrafo">YN. / Interior. / DR. / Derecha.</p>
+    <p class="parrafo">CN. / Centro. / CD. / Centro derecha.</p>
+    <p class="parrafo">CI. / Centro izquierda. / YI. / Interior izquierda.</p>
+    <p class="parrafo">YD. / Interior derecha. / EI. / Exterior izquierda.</p>
+    <p class="parrafo">YC. / Interior centro. / EC. / Exterior centro.</p>
+    <p class="parrafo">CY. / Centro interior derecha. / CZ. / Centro interior izquierda.</p>
+    <p class="parrafo">CE. / Centro exterior derecha. / CZ / Centro exterior izquierda.</p>
+    <p class="parrafo">En la tipología de local = vivienda para PLAN se recomienda la siguiente estructura:</p>
+    <p class="parrafo">PLAN / Descripción / PLAN / Descripción</p>
+    <p class="parrafo">P01. / Planta primera. / P02. / Planta segunda.</p>
+    <p class="parrafo">Pxx. / Planta XX. / SOT. / Sótano.</p>
+    <p class="parrafo">SSO / Semisótano. / PBJ. / Planta baja.</p>
+    <p class="parrafo">PBI. / Bajo interior. / PBE. / Bajo exterior.</p>
+    <p class="parrafo">ENT. / Entresuelo. / PRL. / Principal.</p>
+    <p class="parrafo">A01. / Ático 01. / Axx. / Ático XX.</p>
+    <p class="parrafo">ALT. / Altillo. / S01. / Sótano 01.</p>
+    <p class="parrafo">S02. / Sótano 02. / Sxx. / Sótano XX.</p>
+    <p class="parrafo">Para el campo TLOC, el INE diferenciará los siguientes contenidos:</p>
+    <p class="parrafo">TLOC / Descripción / TLOC / Descripción</p>
+    <p class="parrafo">1 / Vivienda o alojamiento. / 2 / Establecimiento colectivo.</p>
+    <p class="parrafo">17. Cumplimentación del fichero de intercambio.</p>
+    <p class="parrafo">CVAR = A (Alta del Habitante en el Municipio). Tendrán contenido los datos de identificación marcados con asterisco (*) y todos los datos de variación.</p>
+    <p class="parrafo">CVAR = B (Baja del Habitante en el Municipio). Tendrán contenido exclusivamente los datos de identificación.</p>
+    <p class="parrafo">Cuando la baja sea por duplicado, los campos de «Datos de Variación» se cumplimentarán con los datos del habitante con el que está duplicado.</p>
+    <p class="parrafo">CVAR = M (Modificación del Habitante en el Municipio). Todos los campos estarán cumplimentados.</p>
+    <p class="parrafo">Cuando las variaciones al Padrón vengan definidas por Variaciones Residenciales, tanto para el alta como para la baja deberán cumplimentarse los campos de Provincia-Municipio de Destino/Procedencia.</p>
+    <p class="parrafo">7. Renumeración de vías.-Cuando una vía (Unidad Poblacional o Pseudovía) haya sufrido una renumeración en sus números, el Ayuntamiento identificará número a número la situación inicial y la final mediante el siguiente formato de registro:</p>
+    <p class="parrafo">Campo / Descripción / Atr. / Ob.</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">identif. / CPRO / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUN / Código de municipio. / N(3)</p>
+    <p class="parrafo">CUN / Código de unidad poblacional. / N(7)</p>
+    <p class="parrafo">CVIA / Código de vía. / N(5)</p>
+    <p class="parrafo">CPSVIA / Código de pseudovía.</p>
+    <p class="parrafo">TINUM / Tipo de numeración / N(1)</p>
+    <p class="parrafo">NCALI / Número de calle inicial. / N(4)</p>
+    <p class="parrafo">CNCALI / Calificador de NCALI / A(1)</p>
+    <p class="parrafo">NCALIS / Número de calle inicial (superior). / N(4)</p>
+    <p class="parrafo">CNCALIS / Calificador de NCALIS (superior). / A(1)</p>
+    <p class="parrafo">Datos</p>
+    <p class="parrafo">variac. / NCALF / Número de calle de destino. / N(4)</p>
+    <p class="parrafo">CNCALF / Calificador de NCALF. / A(1)</p>
+    <p class="parrafo">NCALFS / Número de calle final (superior). / N(4)</p>
+    <p class="parrafo">CNCALFS / Calificador de NCALFS (superior). / A(1)</p>
+    <p class="parrafo">Observaciones:</p>
+    <p class="parrafo">1. Todos los datos estarán siempre cumplimentados, salvo los campos NCALIS, CNCALIS, NCALFS, CNCALFS que pueden permanecer a blancos cuando el domicilio carezca de doble numeración.</p>
+    <p class="parrafo">2. Los datos de identificación siempre contendrán los datos iniciales que posea el INE antes de cualquier tipo de rectificación.</p>
+    <p class="parrafo">3. Los datos de variación tendrán siempre el valor del número de calle después de haber realizado la rectificación.</p>
+    <p class="parrafo">Si una vía únicamente sufre una renumeración, tanto la numeración inicial como la final se corresponderían con numeraciones de la misma vía.</p>
+    <p class="parrafo">Si dos vías (vía A y vía B) se fusionan en una sola (vía C), lo normal es que, al menos, una de las dos vías fusionadas (por ejemplo, la vía B) se renumere. La cumplimentación del fichero de renumeración de vías se realizará indicando en la situación inicial los números de la vía inicial (vía B) y en los datos de variación los números de la vía final (vía C). (Como es obvio, el Ayuntamiento ha debido indicar en los ficheros adecuados que se ha producido la fusión de estas dos vías.)</p>
+    <p class="parrafo">ANEXO: CONTENIDO MÍNIMO DE FICHEROS</p>
+    <p class="parrafo">Los siguientes diseños de registro se ofrecen exclusivamente como una información adicional a los ficheros de intercambio.</p>
+    <p class="parrafo">Se trata de describir unas estructuras mínimas que permitan realizar el intercambio de información, aunque, como es evidente, estos ficheros en cada Ayuntamiento pueden ser modificados para facilitar la gestión propia de cada uno.</p>
+    <p class="parrafo">1. Relación de unidades poblacionales</p>
+    <p class="parrafo">Campo / Descripción / Atrib.</p>
+    <p class="parrafo">CPRO. / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUN. / Código de municipio. / N(3)</p>
+    <p class="parrafo">CUN. / Código de unidad poblacional. / N(7)</p>
+    <p class="parrafo">NOMB. / Nombre oficial. / A(70)</p>
+    <p class="parrafo">NOMB50. / Nombre a 50 caracteres. / A(50)</p>
+    <p class="parrafo">NOMBC. / Nombre corto. / A(25)</p>
+    <p class="parrafo">FVAR. / Fecha de variación. / N(8).</p>
+    <p class="parrafo">CVAR. / Código de variación. / A(1).</p>
+    <p class="parrafo">El nombre (NOMB, NOMB50 y NOMBC) se correspondería con el nombre del municipio, entidad colectiva, entidad singular y/o núcleo/diseminado, teniendo presente la siguiente regla:</p>
+    <p class="parrafo">Sí / es / a / Entonces NOMB es</p>
+    <p class="parrafo">NN. / Igual. / 99 / *Diseminado*.</p>
+    <p class="parrafo">En otro caso. / NN. / Distinto. / 00 / Nombre del núcleo.</p>
+    <p class="parrafo">En otro caso. / SS. / Distinto. / 00 / Nombre de entidad singular.</p>
+    <p class="parrafo">En otro caso. / CC. / Distinto. / 00 / Nombre entidad colectiva.</p>
+    <p class="parrafo">En otro caso. / CMUN. / Distinto. / 000 / Nombre del municipio.</p>
+    <p class="parrafo">En otro caso. /  /  /  / ERROR.</p>
+    <p class="parrafo">2. Relación de vías</p>
+    <p class="parrafo">Campo / Descripción / Atrib.</p>
+    <p class="parrafo">CPRO. / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUN. / Código de municipio. / N(3)</p>
+    <p class="parrafo">CVIA. / Código de vía. / N(5)</p>
+    <p class="parrafo">TVIA. / Código de tipo de vía. / N(5)</p>
+    <p class="parrafo">POS. / Posición del tipo de vía. / N(1)</p>
+    <p class="parrafo">NVIA. / Nombre de vía. / A(50)</p>
+    <p class="parrafo">NVIAC. / Nombre de vía corto. / A(25)</p>
+    <p class="parrafo">FVAR. / Fecha de variación. / N(8)</p>
+    <p class="parrafo">CVAR. / Código de variación. / A(1)</p>
+    <p class="parrafo">3. Relación de pseudovías</p>
+    <p class="parrafo">Campo / Descripción / Atrib.</p>
+    <p class="parrafo">CPRO. / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUN. / Código de municipio. / N(3)</p>
+    <p class="parrafo">CPSVIA. / Código de pseudovía. / N(5)</p>
+    <p class="parrafo">DPSVIA. / Descripción de pseudovía. / A(50)</p>
+    <p class="parrafo">FVAR. / Fecha de variación. / N(8)</p>
+    <p class="parrafo">CVAR. / Código de variación. / A(1)</p>
+    <p class="parrafo">4. Relación de tipos de vía</p>
+    <p class="parrafo">Campo / Descripción / Atrib.</p>
+    <p class="parrafo">TVIAN. / Tipo de vía normalizado. / N(5)</p>
+    <p class="parrafo">TVIA. / Tipo de vía. / A(5)</p>
+    <p class="parrafo">DTVIA. / Descripción del tipo de vía. / A(25)</p>
+    <p class="parrafo">5. Relación de tramos</p>
+    <p class="parrafo">Campo / Descripción / Atrib.</p>
+    <p class="parrafo">CPRO. / Código de provincia. / N(2)</p>
+    <p class="parrafo">CMUN. / Código de municipio. / N(3)</p>
+    <p class="parrafo">DIST. / Distrito. / N(2)</p>
+    <p class="parrafo">SECC. / Sección. / N(3)</p>
+    <p class="parrafo">LSECC. / Letra de sección. / A(1)</p>
+    <p class="parrafo">SUBSC. / Subsección. / A(2)</p>
+    <p class="parrafo">CUN. / Código de unidad poblacional. / N(7)</p>
+    <p class="parrafo">CVIA. / Código de vía. / N(5)</p>
+    <p class="parrafo">CPSVIA. / Código de pseudovía. / N(5)</p>
+    <p class="parrafo">MANZ. / Manzana. / A(12)</p>
+    <p class="parrafo">TINUM. / Tipo de numeración. / N(1)</p>
+    <p class="parrafo">EIN. / Extremo inferior de numeración. / N(4)</p>
+    <p class="parrafo">CEIN. / Calificador extremo inferior de numeración. / A(1)</p>
+    <p class="parrafo">ESN. / Extremo superior de numeración. / N(4)</p>
+    <p class="parrafo">CESN. / Calificador extremo superior de numeración. / A(1)</p>
+    <p class="parrafo">CPOS. / Código postal. / N(5)</p>
+    <p class="parrafo">FVAR. / Fecha de variación. / N(8)</p>
+    <p class="parrafo">CVAR. / Código de variación. / A(1)</p>
+    <p class="parrafo">6. Relación de habitantes</p>
+    <p class="parrafo">Campo / Descripción / Atrib.</p>
+    <p class="parrafo">CPRO. / Código de provincia de residencia. / N(2)</p>
+    <p class="parrafo">CMUN. / Código de municipio de residencia. / N(3)</p>
+    <p class="parrafo">DIST. / Distrito. / N(2)</p>
+    <p class="parrafo">SECC. / Sección. / N(3)</p>
+    <p class="parrafo">LSECC. / Letra de sección. / A(1)</p>
+    <p class="parrafo">CUN. / Código de unidad poblacional. / N(7)</p>
+    <p class="parrafo">CVIA. / Código de vía. / N(5)</p>
+    <p class="parrafo">CPSVIA. / Código de pseudovía. / N(5)</p>
+    <p class="parrafo">TINUM. / Tipo de numeración. / N(1)</p>
+    <p class="parrafo">NUMER. / Número. / N(4)</p>
+    <p class="parrafo">CNUMER. / Calificador de NUMER. / A(1)</p>
+    <p class="parrafo">NUMERS. / Número superior. / N(4)</p>
+    <p class="parrafo">CNUMERS. / Calificador de NUMERS. / A(1)</p>
+    <p class="parrafo">KMT. / Kilómetro. / N(3)</p>
+    <p class="parrafo">HMT. / Hectómetro. / N(1)</p>
+    <p class="parrafo">BLOQ. / Bloque. / A(2)</p>
+    <p class="parrafo">PORT. / Portal. / A(2)</p>
+    <p class="parrafo">ESCA. / Escalera. / A(2)</p>
+    <p class="parrafo">PLAN. / Planta. / A(3)</p>
+    <p class="parrafo">PUER. / Puerta. / A(4)</p>
+    <p class="parrafo">TLOC. / Tipo de local. / A(1)</p>
+    <p class="parrafo">NIA. / Número de identificación del Ayuntamiento. / A(15)</p>
+    <p class="parrafo">NHOP. / Número de hoja padronal. / A(10)</p>
+    <p class="parrafo">NIE. / Número de identificación electoral. / N(11)</p>
+    <p class="parrafo">NOMB. / Nombre del habitante. / A(20)</p>
+    <p class="parrafo">PART1. / Partícula del primer apellido. / A(6)</p>
+    <p class="parrafo">APE1. / Primer apellido. / A(25)</p>
+    <p class="parrafo">PART2. / Partícula del segundo apellido. / A(6)</p>
+    <p class="parrafo">APE2. / Segundo apellido. / A(25)</p>
+    <p class="parrafo">SEXO. / Sexo. / N(1)</p>
+    <p class="parrafo">CPRON. / Código de provincia de nacimiento. / N(2)</p>
+    <p class="parrafo">CMUNN. / Código de municipio de nacimiento. / N(3)</p>
+    <p class="parrafo">FNAC. / Fecha de nacimiento. / N(8)</p>
+    <p class="parrafo">TIDEN. / Tipo de identificador. / N(1)</p>
+    <p class="parrafo">LEXTR. / Letra documento extranjeros. / A(1)</p>
+    <p class="parrafo">IDEN. / Identificador. / N(8)</p>
+    <p class="parrafo">LIDEN. / Letra de control del identificador. / A(1)</p>
+    <p class="parrafo">NDOCU. / Número de documento. / A(20)</p>
+    <p class="parrafo">CNES. / Código de nivel de estudios. / N(2)</p>
+    <p class="parrafo">NACI. / Código de nacionalidad. / N(3)</p>
+    <p class="parrafo">PRDP. / Código de provincia de destino o procedencia. / N(2)</p>
+    <p class="parrafo">MUDP. / Código de municipio de destino o procedencia. / N(3)</p>
+    <p class="parrafo">CODP. / Código de consulado de destino-procedencia. / N(3)</p>
+    <p class="parrafo">FVAR. / Fecha de variación de datos del habitante. / N(8)</p>
+    <p class="parrafo">CVAR. / Código de variación. / A(1)</p>
+    <p class="parrafo">CAUV. / Causa de variación. / A(2)</p>
+  </texto>
+</documento>

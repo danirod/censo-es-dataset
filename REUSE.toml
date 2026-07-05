@@ -1,0 +1,41 @@
+version = 1
+SPDX-PackageName = "censo-es-dataset"
+SPDX-PackageSupplier = "Dani Rodríguez"
+SPDX-PackageDownloadLocation = "https://github.com/danirod/censo-es-dataset"
+
+# Not worth.
+[[annotations]]
+path = [
+    ".githooks/**",
+    ".gitignore",
+    ".opencode/.gitignore",
+    ".opencode/opencode.json",
+    "AGENTS.md",
+    "AI-DECLARATION.md",
+    "mise.toml",
+    "pyproject.toml",
+    "README.md",
+    "REUSE.toml",
+    "scripts/ce2sql/sql/**",
+    "uv.lock",
+]
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText =  "NONE"
+
+[[annotations]]
+path = "output/**"
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText =  "NONE"
+
+# These files come from INE itself or are derived from INE data.
+# SPDX-FileCopyrightText is set according to the section
+# Reutilización de la información contenida en este sitio web
+# from https://www.ine.es/dyngs/AYU/index.htm?cid=125
+[[annotations]]
+path = "upstream/**"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileCopyrightText =  "Sitio web del INE: www.ine.es"
+[[annotations]]
+path = "docs/llm_analysis/**"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileCopyrightText =  "Elaboración propia con datos extraídos del sitio web del INE: www.ine.es"

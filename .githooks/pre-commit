@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mise run check
+mise run test
+mise run reuse

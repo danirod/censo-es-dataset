@@ -1,0 +1,39 @@
+[tools]
+python = "3.14"
+uv = "0.11.25"
+
+[tasks.install]
+description = "Install dependencies"
+run = "uv sync"
+
+[tasks.setup-hooks]
+description = "Configure Git hooks"
+run = "git config core.hooksPath .githooks"
+
+[tasks.check]
+description = "Run checks"
+depends = ["format:check", "lint", "types"]
+
+[tasks.test]
+description = "Run tests"
+run = "python -m unittest discover -s scripts/tests"
+
+[tasks.format]
+description = "Format code"
+run = "uv run ruff format"
+
+[tasks."format:check"]
+description = "Check formatting"
+run = "uv run ruff format --check"
+
+[tasks.lint]
+description = "Lint code"
+run = "uv run ruff check"
+
+[tasks.types]
+description = "Check types"
+run = "uv run ty check"
+
+[tasks.reuse]
+description = "REUSE compliance"
+run = "uv run reuse lint"

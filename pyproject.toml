@@ -1,0 +1,46 @@
+[project]
+name = "censo-es-dataset"
+version = "1.0.0"
+description = "Datasets for the Spanish INE census"
+readme = "README.md"
+requires-python = ">=3.14"
+license = "MIT"
+authors = [{ name = "Dani Rodríguez", email = "dani@danirod.es" }]
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "reuse[charset-normalizer]",
+  "ruff",
+  "ty",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+exclude = [
+  "docs",
+  "upstream",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.ruff.lint]
+select = [
+  "E",
+  "F",
+  "I",
+  "UP",
+  "B",
+  "SIM",
+  "C90",
+  "PL",
+  "RUF",
+  "ERA",
+]
+ignore = [
+  "E501",
+]
