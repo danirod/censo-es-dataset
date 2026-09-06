@@ -202,6 +202,7 @@ Albacete,Elche de la Sierra,02,030,6,020306,02439
 Albacete,Elche de la Sierra,02,030,6,020306,02449
 Albacete,Elche de la Sierra,02,030,6,020306,02470
 Albacete,Férez,02,031,3,020313,02436
+Albacete,Férez,02,031,3,020313,02649
 Albacete,Fuensanta,02,032,8,020328,02637
 Albacete,Fuente-Álamo,02,033,4,020334,02651
 Albacete,Fuentealbilla,02,034,9,020349,02249
@@ -263,6 +264,7 @@ Albacete,Povedilla,02,062,1,020621,02311
 Albacete,Pozohondo,02,063,7,020637,02129
 Albacete,Pozohondo,02,063,7,020637,02141
 Albacete,Pozohondo,02,063,7,020637,02142
+Albacete,Pozohondo,02,063,7,020637,02143
 Albacete,Pozo-Lorente,02,064,2,020642,02154
 Albacete,Pozuelo,02,065,5,020655,02327
 Albacete,"Recueja, La",02,066,8,020668,02249
@@ -567,7 +569,6 @@ Almería,Albanchez,04,004,6,040046,04858
 Almería,Alboloduy,04,005,9,040059,04531
 Almería,Alboloduy,04,005,9,040059,04558
 Almería,Albox,04,006,2,040062,04600
-Almería,Albox,04,006,2,040062,04692
 Almería,Albox,04,006,2,040062,04800
 Almería,Albox,04,006,2,040062,04812
 Almería,Albox,04,006,2,040062,04813
@@ -1701,6 +1702,7 @@ Barcelona,"Prats de Rei, Els",08,170,5,081705,08281
 Barcelona,Prats de Lluçanès,08,171,2,081712,08513
 Barcelona,Premià de Mar,08,172,7,081727,08330
 Barcelona,Puigdàlber,08,174,8,081748,08797
+Barcelona,Puig-reig,08,175,1,081751,08672
 Barcelona,Puig-reig,08,175,1,081751,08692
 Barcelona,Pujalt,08,176,4,081764,08282
 Barcelona,"Quar, La",08,177,0,081770,08606
@@ -2214,6 +2216,7 @@ Burgos,Retuerta,09,311,6,093116,09347
 Burgos,"Revilla y Ahedo, La",09,312,1,093121,09613
 Burgos,Revilla del Campo,09,314,2,093142,09194
 Burgos,Revilla del Campo,09,314,2,093142,09647
+Burgos,Revillarruz,09,315,5,093155,09260
 Burgos,Revillarruz,09,315,5,093155,09620
 Burgos,Revilla Vallejera,09,316,8,093168,09117
 Burgos,Rezmondo,09,317,4,093174,09108
@@ -2417,6 +2420,7 @@ Cáceres,Alcántara,10,008,9,100089,10990
 Cáceres,Alcollarín,10,009,2,100092,10135
 Cáceres,Alcuéscar,10,010,6,100106,10160
 Cáceres,Aldeacentenera,10,011,3,100113,10251
+Cáceres,Aldeacentenera,10,011,3,100113,20251
 Cáceres,Aldea del Cano,10,012,8,100128,10163
 Cáceres,"Aldea del Obispo, La",10,013,4,100134,10291
 Cáceres,Aldeanueva de la Vera,10,014,9,100149,10440
@@ -2799,7 +2803,6 @@ Cádiz,Vejer de la Frontera,11,039,3,110393,11179
 Cádiz,Vejer de la Frontera,11,039,3,110393,11180
 Cádiz,Villaluenga del Rosario,11,040,7,110407,11611
 Cádiz,Villamartín,11,041,4,110414,11650
-Cádiz,Zahara,11,042,9,110429,11686
 Cádiz,Zahara,11,042,9,110429,11688
 Cádiz,Benalup-Casas Viejas,11,901,3,119013,11190
 Cádiz,San José del Valle,11,902,8,119028,11580
@@ -3254,6 +3257,7 @@ Córdoba,Torrecampo,14,062,0,140620,14410
 Córdoba,Valenzuela,14,063,6,140636,14670
 Córdoba,Valsequillo,14,064,1,140641,14206
 Córdoba,"Victoria, La",14,065,4,140654,14140
+Córdoba,"Victoria, La",14,065,4,140654,14191
 Córdoba,Villa del Río,14,066,7,140667,14640
 Córdoba,Villafranca de Córdoba,14,067,3,140673,14420
 Córdoba,Villaharta,14,068,9,140689,14210
@@ -4475,6 +4479,7 @@ Granada,"Zubia, La",18,193,7,181937,18140
 Granada,Zújar,18,194,2,181942,18811
 Granada,"Taha, La",18,901,7,189017,18414
 Granada,"Valle, El",18,902,2,189022,18658
+Granada,Nevada,18,903,8,189038,18492
 Granada,Nevada,18,903,8,189038,18494
 Granada,Alpujarra de la Sierra,18,904,3,189043,18450
 Granada,Alpujarra de la Sierra,18,904,3,189043,18460
@@ -5072,7 +5077,6 @@ Huelva,Jabugo,21,043,3,210433,21360
 Huelva,Lepe,21,044,8,210448,21440
 Huelva,Lepe,21,044,8,210448,21449
 Huelva,Linares de la Sierra,21,045,1,210451,21207
-Huelva,Linares de la Sierra,21,045,1,210451,21341
 Huelva,Lucena del Puerto,21,046,4,210464,21820
 Huelva,Manzanilla,21,047,0,210470,21890
 Huelva,"Marines, Los",21,048,6,210486,21208
@@ -5309,6 +5313,7 @@ Huesca,Igriés,22,127,8,221278,22193
 Huesca,Ilche,22,128,4,221284,22415
 Huesca,Isábena,22,129,7,221297,22482
 Huesca,Isábena,22,129,7,221297,22483
+Huesca,Isábena,22,129,7,221297,22485
 Huesca,Jaca,22,130,1,221301,22620
 Huesca,Jaca,22,130,1,221301,22700
 Huesca,Jaca,22,130,1,221301,22710
@@ -5470,6 +5475,7 @@ Huesca,Villanúa,22,250,5,222505,22870
 Huesca,Villanueva de Sigena,22,251,2,222512,22231
 Huesca,Yebra de Basa,22,252,7,222527,22610
 Huesca,Yebra de Basa,22,252,7,222527,22611
+Huesca,Yésero,22,253,3,222533,22369
 Huesca,Yésero,22,253,3,222533,22639
 Huesca,Zaidín,22,254,8,222548,22530
 Huesca,Valle de Hecho,22,901,6,229016,22720
@@ -6345,6 +6351,7 @@ Lleida,Castellnou de Seana,25,068,0,250680,25265
 Lleida,Castelló de Farfanya,25,069,3,250693,25136
 Lleida,Castellserà,25,070,7,250707,25334
 Lleida,Cava,25,071,4,250714,25722
+Lleida,Cava,25,071,4,250714,25723
 Lleida,Cervera,25,072,9,250729,25200
 Lleida,Cervera,25,072,9,250729,25213
 Lleida,Cervera,25,072,9,250729,25214
@@ -6451,7 +6458,6 @@ Lleida,Montornès de Segarra,25,143,1,251431,25340
 Lleida,Nalec,25,145,9,251459,25341
 Lleida,Navès,25,146,2,251462,25286
 Lleida,Odèn,25,148,4,251484,25283
-Lleida,Odèn,25,148,4,251484,25790
 Lleida,Oliana,25,149,7,251497,25790
 Lleida,Oliola,25,150,0,251500,25318
 Lleida,Oliola,25,150,0,251500,25748
@@ -6584,6 +6590,8 @@ Lleida,Tremp,25,234,7,252347,25640
 Lleida,Tremp,25,234,7,252347,25654
 Lleida,Vallbona de les Monges,25,238,5,252385,25268
 Lleida,Vallbona de les Monges,25,238,5,252385,25269
+Lleida,"Valls de Valira, Les",25,239,8,252398,25788
+Lleida,"Valls de Valira, Les",25,239,8,252398,25795
 Lleida,"Valls de Valira, Les",25,239,8,252398,25798
 Lleida,"Valls de Valira, Les",25,239,8,252398,25799
 Lleida,Vallfogona de Balaguer,25,240,2,252402,25617
@@ -6628,6 +6636,7 @@ Lleida,Ribera d'Ondara,25,905,9,259059,25271
 Lleida,"Valls d'Aguilar, Les",25,906,2,259062,25714
 Lleida,"Valls d'Aguilar, Les",25,906,2,259062,25795
 Lleida,Torrefeta i Florejacs,25,907,8,259078,25211
+Lleida,Torrefeta i Florejacs,25,907,8,259078,25212
 Lleida,Torrefeta i Florejacs,25,907,8,259078,25753
 Lleida,Fígols i Alinyà,25,908,4,259084,25794
 Lleida,"Vansa i Fórnols, La",25,909,7,259097,25717
@@ -9034,6 +9043,7 @@ Asturias,Nava,33,040,4,330404,33582
 Asturias,Navia,33,041,1,330411,33710
 Asturias,Navia,33,041,1,330411,33719
 Asturias,Navia,33,041,1,330411,33790
+Asturias,Navia,33,041,1,330411,33792
 Asturias,Navia,33,041,1,330411,33793
 Asturias,Noreña,33,042,6,330426,33180
 Asturias,Onís,33,043,2,330432,33556
@@ -10334,6 +10344,7 @@ Salamanca,Pitiegua,37,254,9,372549,37490
 Salamanca,Pizarral,37,255,2,372552,37795
 Salamanca,Poveda de las Cintas,37,256,5,372565,37406
 Salamanca,Pozos de Hinojo,37,257,1,372571,37216
+Salamanca,Pozos de Hinojo,37,257,1,372571,37281
 Salamanca,Puebla de Azaba,37,258,7,372587,37552
 Salamanca,Puebla de Azaba,37,258,7,372587,37553
 Salamanca,Puebla de San Medel,37,259,0,372590,37791
@@ -11348,7 +11359,6 @@ Sevilla,"Madroño, El",41,057,3,410573,41897
 Sevilla,"Madroño, El",41,057,3,410573,41898
 Sevilla,Mairena del Alcor,41,058,9,410589,41510
 Sevilla,Mairena del Aljarafe,41,059,2,410592,41927
-Sevilla,Marchena,41,060,6,410606,41060
 Sevilla,Marchena,41,060,6,410606,41620
 Sevilla,Marinaleda,41,061,3,410613,41569
 Sevilla,Martín de la Jara,41,062,8,410628,41658
@@ -11905,6 +11915,7 @@ Tarragona,Vandellòs i l'Hospitalet de l'Infant,43,162,8,431628,43890
 Tarragona,Vandellòs i l'Hospitalet de l'Infant,43,162,8,431628,43891
 Tarragona,"Vendrell, El",43,163,4,431634,43700
 Tarragona,"Vendrell, El",43,163,4,431634,43880
+Tarragona,"Vendrell, El",43,163,4,431634,43889
 Tarragona,Vespella de Gaià,43,164,9,431649,43763
 Tarragona,Vilabella,43,165,2,431652,43886
 Tarragona,Vilallonga del Camp,43,166,5,431665,43141
