@@ -37,6 +37,44 @@ JOIN provincia USING (codigo_provincia)
 ORDER BY COD_PROV, COD_MUNI, COD_POSTAL
 """
 
+LOCALIDADES_QUERY = """
+SELECT DISTINCT
+    provincia.nombre AS PROV,
+    municipio.nombre AS MUNI,
+    municipio.codigo_provincia AS COD_PROV,
+    municipio.codigo_municipio AS COD_MUNI,
+    municipio.digito_control AS DC,
+    municipio.codigo_provincia || municipio.codigo_municipio || municipio.digito_control AS COD_MUNI_COMPLETO,
+    unidad_poblacional.codigo_unidad_poblacional AS CUN,
+    unidad_poblacional.nombre_entidad_colectiva_largo AS ENTIDAD_COLECTIVA,
+    unidad_poblacional.nombre_entidad_singular_largo AS ENTIDAD_SINGULAR,
+    unidad_poblacional.nombre_nucleo_largo AS NUCLEO,
+    CASE
+        WHEN substr(unidad_poblacional.codigo_unidad_poblacional, -2) = '99' THEN 'DISEMINADO'
+        ELSE 'NUCLEO'
+    END AS TIPO,
+    CASE
+        WHEN substr(unidad_poblacional.codigo_unidad_poblacional, -2) = '99' THEN
+            'Diseminado de ' || COALESCE(
+                NULLIF(unidad_poblacional.nombre_entidad_singular_largo, ''),
+                NULLIF(unidad_poblacional.nombre_entidad_colectiva_largo, ''),
+                municipio.nombre
+            )
+        ELSE COALESCE(
+            NULLIF(unidad_poblacional.nombre_nucleo_largo, ''),
+            NULLIF(unidad_poblacional.nombre_entidad_singular_largo, ''),
+            NULLIF(unidad_poblacional.nombre_entidad_colectiva_largo, ''),
+            municipio.nombre
+        )
+    END AS LOCALIDAD,
+    tramo.codigo_postal AS COD_POSTAL
+FROM unidad_poblacional
+JOIN tramo USING (codigo_provincia, codigo_municipio, codigo_unidad_poblacional)
+JOIN municipio USING (codigo_provincia, codigo_municipio)
+JOIN provincia USING (codigo_provincia)
+ORDER BY COD_PROV, COD_MUNI, CUN, COD_POSTAL
+"""
+
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Generate committed CSV datasets from a caj_esp SQLite database")
@@ -56,6 +94,7 @@ def generate_outputs(database: Path, output: Path) -> None:
         connection.row_factory = sqlite3.Row
         write_query(connection, output / "municipios.csv", MUNICIPIOS_QUERY)
         write_query(connection, output / "codigos_postales.csv", CODIGOS_POSTALES_QUERY)
+        write_query(connection, output / "localidades.csv", LOCALIDADES_QUERY)
 
 
 def write_query(connection: sqlite3.Connection, path: Path, query: str) -> None:
